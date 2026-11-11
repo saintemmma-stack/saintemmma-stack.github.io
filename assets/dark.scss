@@ -1,0 +1,35 @@
+/*-- scss:defaults --*/
+$paper:     #161B1A;
+$ink:       #E3E7E4;
+$graphite:  #9AA5A0;
+$rule:      #2E3633;
+$pencil:    #8FB3EC;
+$note-tint: #1E2733;
+
+$body-bg: $paper;
+$body-color: $ink;
+$link-color: $pencil;
+$primary: $pencil;
+$navbar-bg: $paper;
+$navbar-fg: $ink;
+$navbar-hl: $pencil;
+$footer-bg: $paper;
+$border-color: $rule;
+$toc-color: $graphite;
+
+$font-family-sans-serif: "Literata", Georgia, serif;
+$headings-font-family: "Literata", Georgia, serif;
+$font-size-root: 18px;
+$line-height-base: 1.7;
+$grid-body-width: 680px;
+
+/*-- scss:rules --*/
+:root {
+  --sr-paper: #{$paper};
+  --sr-ink: #{$ink};
+  --sr-graphite: #{$graphite};
+  --sr-rule: #{$rule};
+  --sr-pencil: #{$pencil};
+  --sr-note-tint: #{$note-tint};
+  --sr-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+}

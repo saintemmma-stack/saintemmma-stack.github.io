@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "works/**/*.qmd"
+
+website:
+  title: "Second Reading"
+  description: "Talks and lectures, transcribed, checked, dated, annotated and illustrated."
+  site-url: https://saintemmma-stack.github.io
+  repo-url: https://github.com/saintemmma-stack/saintemmma-stack.github.io
+  page-navigation: false
+  navbar:
+    left:
+      - href: index.qmd
+        text: Library
+      - href: about.qmd
+        text: About
+  page-footer:
+    left: "Notes and essays: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Quoted speech belongs to its speakers; images carry their own credits."
+    right: "[Source on GitHub](https://github.com/saintemmma-stack/saintemmma-stack.github.io)"
+
+format:
+  html:
+    theme:
+      light: [default, assets/light.scss, assets/common.scss]
+      dark: [default, assets/dark.scss, assets/common.scss]
+    respect-user-color-scheme: true
+    include-in-header: assets/head.html
+    include-after-body: assets/footnotes.html
+    footnotes-hover: false
+    reference-location: document
+    toc: true
+    toc-title: "In this piece"
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true
+    lang: en
+
+language:
+  title-block-modified: "Last updated"

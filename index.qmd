@@ -1,0 +1,20 @@
+---
+pagetitle: "Second Reading"
+toc: false
+---
+
+::: {.sr-hero}
+# Second Reading
+
+::: {.lead}
+Talks and lectures, read a second time, slowly: transcribed, checked against their sources, dated, annotated and illustrated.
+:::
+:::
+
+<ul class="sr-library">
+<li>
+<div class="sr-work-title"><a href="works/chomsky-french-intellectuals/">The strange bubble of French intellectuals</a></div>
+<p>Noam Chomsky on Stalinism, Maoism, Paris fashions and the idea that there is no truth, in an eight-minute interview excerpt from around 2011.</p>
+<p class="sr-meta">Annotated edition, in progress: section I of VIII</p>
+</li>
+</ul>

@@ -1,0 +1,221 @@
+/*-- scss:rules --*/
+// Shared rules for light and dark. Colours come from the --sr-* variables
+// defined in light.scss / dark.scss.
+
+$ui-font: "Schibsted Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+body {
+  font-optical-sizing: auto;
+  font-feature-settings: "kern", "liga", "onum";
+  hanging-punctuation: first;
+}
+
+// ---- Interface text (navigation, captions, timestamps) uses the grotesk ----
+.navbar, .sidebar, #TOC, #quarto-margin-sidebar, .nav-footer,
+figcaption, .figure-caption, .sr-meta, .sr-ts, .sr-status,
+.footnote-ref, .fn-popover .fn-num, .curious > summary, .todo-figure .todo-label {
+  font-family: $ui-font;
+}
+
+.navbar-title { font-family: "Literata", Georgia, serif; font-weight: 600; letter-spacing: -0.01em; }
+.navbar { border-bottom: 1px solid var(--sr-rule); }
+.nav-footer { font-size: 0.78rem; color: var(--sr-graphite); border-top: 1px solid var(--sr-rule); }
+
+// ---- Headings ----
+h1, h2, h3, h4 { font-weight: 600; letter-spacing: -0.012em; line-height: 1.22; }
+h1.title { font-size: 2.35rem; font-weight: 650; }
+h2 { font-size: 1.6rem; margin-top: 3.2rem; border-bottom: none; }
+h3 { font-size: 1.18rem; margin-top: 2.2rem; }
+.subtitle { font-style: italic; color: var(--sr-graphite); font-weight: 400; font-size: 1.15rem; }
+#title-block-header .quarto-title-meta-heading { font-family: $ui-font; text-transform: none; letter-spacing: 0; font-size: 0.78rem; color: var(--sr-graphite); }
+#title-block-header .quarto-title-meta-contents { font-family: $ui-font; font-size: 0.85rem; }
+
+a { text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+
+// ---- The blue-pencil marks: the site's one signature element ----
+// 1. A hand-drawn underline under the main title of the home page.
+.sr-hero h1 {
+  font-size: clamp(2.6rem, 7vw, 4.1rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.02;
+  margin: 1.2rem 0 0.4rem;
+  display: inline-block;
+  padding-bottom: 0.28em;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 18' preserveAspectRatio='none'%3E%3Cpath d='M3 12 C 70 5, 140 15, 210 9 S 340 4, 397 10' fill='none' stroke='%232C5AA0' stroke-width='3.2' stroke-linecap='round'/%3E%3Cpath d='M30 15 C 120 10, 260 15, 380 12' fill='none' stroke='%232C5AA0' stroke-width='1.6' stroke-linecap='round' opacity='.55'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% 0.36em;
+}
+.quarto-dark .sr-hero h1 {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 18' preserveAspectRatio='none'%3E%3Cpath d='M3 12 C 70 5, 140 15, 210 9 S 340 4, 397 10' fill='none' stroke='%238FB3EC' stroke-width='3.2' stroke-linecap='round'/%3E%3Cpath d='M30 15 C 120 10, 260 15, 380 12' fill='none' stroke='%238FB3EC' stroke-width='1.6' stroke-linecap='round' opacity='.55'/%3E%3C/svg%3E");
+}
+.sr-hero .lead, .sr-hero .lead p { font-size: 1.2rem; color: var(--sr-graphite); max-width: 34rem; }
+
+// 2. Note numbers are circled, as if marked in the margin.
+a.footnote-ref {
+  text-decoration: none;
+  cursor: pointer;
+  sup {
+    display: inline-block;
+    min-width: 1.35em;
+    padding: 0.05em 0.3em;
+    margin-left: 0.1em;
+    font-size: 0.68em;
+    font-weight: 600;
+    line-height: 1.25;
+    text-align: center;
+    color: var(--sr-pencil);
+    border: 1.5px solid var(--sr-pencil);
+    border-radius: 999px;
+    vertical-align: 0.55em;
+    transition: background-color 120ms ease, color 120ms ease;
+  }
+  &:hover sup, &[aria-expanded="true"] sup { background: var(--sr-pencil); color: var(--sr-paper); }
+  &:focus-visible { outline: 2px solid var(--sr-pencil); outline-offset: 2px; border-radius: 999px; }
+}
+
+// 3. The speaker's own words: set apart by a pencil bracket in the margin.
+blockquote.blockquote, .sr-quote {
+  font-size: 1.08rem;
+  font-style: italic;
+  color: var(--sr-ink);
+  border-left: none;
+  margin: 1.8rem 0 1.8rem 0;
+  padding: 0.1rem 0 0.1rem 1.25rem;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 0.35rem; bottom: 0.35rem;
+    width: 0.55rem;
+    border: 2px solid var(--sr-pencil);
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+    opacity: 0.85;
+  }
+  p:last-child { margin-bottom: 0; }
+}
+
+// Timestamp link that opens the video at the right moment.
+.sr-ts {
+  display: inline-block;
+  font-style: normal;
+  font-size: 0.74rem;
+  font-weight: 500;
+  color: var(--sr-graphite);
+  margin-bottom: 0.25rem;
+  a { color: inherit; }
+  a:hover { color: var(--sr-pencil); }
+}
+
+// ---- Click-to-open note popover ----
+.fn-popover {
+  position: absolute;
+  z-index: 1080;
+  max-width: calc(100vw - 24px);
+  padding: 0.85rem 1rem 0.8rem 1rem;
+  background: var(--sr-note-tint);
+  color: var(--sr-ink);
+  border: 1px solid var(--sr-rule);
+  border-left: 3px solid var(--sr-pencil);
+  border-radius: 6px;
+  box-shadow: var(--sr-shadow);
+  font-size: 0.86rem;
+  line-height: 1.55;
+  animation: fn-in 140ms ease-out;
+  p { margin: 0 0 0.5rem 0; }
+  p:last-child { margin-bottom: 0; }
+  .fn-num { font-size: 0.7rem; font-weight: 600; color: var(--sr-pencil); margin-bottom: 0.3rem; }
+  .fn-close {
+    position: absolute; top: 0.3rem; right: 0.45rem;
+    border: none; background: none; color: var(--sr-graphite);
+    font-size: 1.1rem; line-height: 1; padding: 0.2rem 0.35rem; cursor: pointer;
+  }
+  .fn-close:hover { color: var(--sr-ink); }
+  .fn-close:focus-visible { outline: 2px solid var(--sr-pencil); border-radius: 4px; }
+}
+@keyframes fn-in { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .fn-popover { animation: none; } a.footnote-ref sup { transition: none; } }
+
+// The full list of notes at the end of the page stays, quietly, for print and reference.
+section.footnotes, #footnotes {
+  font-size: 0.86rem;
+  color: var(--sr-graphite);
+  border-top: 1px solid var(--sr-rule);
+  margin-top: 3rem;
+}
+
+// ---- "For the curious": editor's suggestions for further reading ----
+details.curious {
+  margin: 2rem 0;
+  border: 1px solid var(--sr-rule);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--sr-note-tint) 55%, transparent);
+  > summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 0.7rem 1rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--sr-pencil);
+  }
+  > summary::-webkit-details-marker { display: none; }
+  > summary::before { content: "+"; display: inline-block; width: 1.1em; font-weight: 500; }
+  &[open] > summary::before { content: "−"; }
+  > summary:focus-visible { outline: 2px solid var(--sr-pencil); outline-offset: -2px; border-radius: 6px; }
+  > *:not(summary) { margin-left: 1rem; margin-right: 1rem; }
+  > ul { padding-left: 1.1rem; font-size: 0.93rem; }
+  > :last-child { margin-bottom: 1rem; }
+}
+
+// ---- Image slots still waiting for a picture ----
+.todo-figure {
+  border: 1.5px dashed var(--sr-rule);
+  border-radius: 6px;
+  padding: 0.9rem 1rem;
+  margin: 1.8rem 0;
+  color: var(--sr-graphite);
+  font-size: 0.88rem;
+  .todo-label { font-weight: 600; font-size: 0.8rem; color: var(--sr-pencil); display: block; margin-bottom: 0.2rem; }
+  p { margin: 0; }
+}
+
+// ---- Status line for unfinished pieces ----
+.sr-status {
+  font-size: 0.85rem;
+  color: var(--sr-graphite);
+  border-left: 3px solid var(--sr-pencil);
+  padding: 0.15rem 0 0.15rem 0.8rem;
+  margin: 1.2rem 0 2rem;
+}
+
+// ---- Drawings (inline SVG) follow the colour scheme ----
+figure.sr-drawing {
+  margin: 2.2rem 0;
+  svg { width: 100%; height: auto; display: block; color: var(--sr-ink); }
+  .ink { fill: var(--sr-ink); }
+  .graphite { fill: var(--sr-graphite); }
+  .pencil { fill: var(--sr-pencil); }
+  .stroke-rule { stroke: var(--sr-rule); }
+  .stroke-ink { stroke: var(--sr-graphite); }
+  .stroke-pencil { stroke: var(--sr-pencil); }
+  text { font-family: $ui-font; }
+  figcaption { font-size: 0.82rem; color: var(--sr-graphite); margin-top: 0.6rem; }
+}
+.sr-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.sr-scroll svg { min-width: 640px; }
+
+// ---- Library list on the home page ----
+.sr-library { list-style: none; padding: 0; margin: 2.5rem 0 0; }
+.sr-library li { padding: 1.3rem 0; border-top: 1px solid var(--sr-rule); }
+.sr-library li:last-child { border-bottom: 1px solid var(--sr-rule); }
+.sr-library .sr-work-title { font-size: 1.3rem; font-weight: 600; line-height: 1.3; }
+.sr-library .sr-work-title a { color: var(--sr-ink); text-decoration: none; }
+.sr-library .sr-work-title a:hover { color: var(--sr-pencil); }
+.sr-library p { margin: 0.35rem 0 0; }
+.sr-meta { font-size: 0.82rem; color: var(--sr-graphite); }
+
+// Video embeds keep their ratio.
+.quarto-video { margin: 1.5rem 0 2rem; }

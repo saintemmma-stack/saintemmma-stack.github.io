@@ -1,0 +1,219 @@
+---
+title: "The strange bubble of French intellectuals"
+subtitle: "Noam Chomsky, in an interview recorded around 2011: an annotated second reading"
+date-modified: last-modified
+---
+
+::: {.sr-status}
+Work in progress. Section I of VIII is annotated; the others follow.
+:::
+
+In an eight-minute excerpt that circulates on YouTube under the title *The Strange Bubble of French Intellectuals*, Noam Chomsky sketches French intellectual life since 1945: Stalinism, then Maoism, then a sudden conversion to anti-communism, a culture he calls insular, thinkers turned media stars, and a fashionable scepticism about truth that he blames for drawing intellectuals away from political struggles.
+
+The clip carries no date and no credit for the original interview. Chomsky himself gives the best clue. He mentions a talk organised by *Le Monde diplomatique* in Paris "about a year ago". That talk took place at the Théâtre de la Mutualité on 29 May 2010,[^mutualite] which puts the interview at around 2011.
+
+This edition goes through what he says section by section. His own words appear in short quoted passages, each with a link to the moment in the video. Around them are the dates he leaves out, the facts he gets right, the ones he gets wrong, and the voices he doesn't mention.
+
+{{< video https://www.youtube.com/embed/772WncdxCSw title="Noam Chomsky: The Strange Bubble of French Intellectuals" >}}
+
+**How to read this edition.** Click a circled number to open its note next to the text. Links lead to sources that explain a name or an event. The boxes titled *For the curious* suggest where to go next.
+
+## I. The last Stalinists {#sec-stalinists}
+
+::: {.sr-ts}
+[00:00 – 00:47 in the video](https://www.youtube.com/watch?v=772WncdxCSw&t=0s)
+:::
+
+> The French intellectuals were the last Stalinists — dedicated Stalinists. Some of them were shaken a little by 1956, but if they weren't Stalinists, they were Maoists.
+
+Chomsky folds thirty years into two sentences. Pulled apart, they describe three distinct moments, and the distance between them matters.
+
+### 1944–1956: the party of the executed
+
+The French Communist Party (PCF) came out of the war with enormous moral prestige. It presented itself as *le parti des fusillés*, the party of those shot by the occupier, and gave the figure as 75,000. Historians have since counted about 4,500 people executed by firing squad during the Occupation, roughly two-thirds of them communists.[^fusilles] The legend was inflated; the sacrifice was real, and it gave the party a hold on the intellectual world. Many writers and scholars joined it, and many more became *compagnons de route*, fellow travellers who supported it without holding a card.[^judt]
+
+The best-known fellow traveller is Jean-Paul Sartre. In 1952 he published *Les Communistes et la paix* in his journal *Les Temps modernes*, which opened four years of close alignment with the party.[^sartre52]
+
+### 1956: two shocks, nine months apart
+
+"1956" stands for two events. On 25 February, in a closed session of the Twentieth Congress of the Soviet Communist Party, Nikita Khrushchev denounced Stalin's purges, the killing of innocent people, and the cult of personality built around him. This was the [Secret Speech](https://soviethistory.msu.edu/1956/khrushchevs-secret-speech/). News of it reached the West within weeks, and the US State Department released a full text on 4 June.[^khrushchev]
+
+Then, at dawn on 4 November, Soviet troops moved into Hungary to crush the [uprising](https://www.britannica.com/event/Hungarian-Revolution-1956) that had begun in Budapest on 23 October. Five days later, Sartre condemned both the intervention and the PCF's submission to Moscow. He developed the argument in a long essay, "Le Fantôme de Staline", serialised in *Les Temps modernes* over the following winter.[^fantome]
+
+"Shaken a little" undersells this. For Sartre, Simone de Beauvoir and others in their circle, Budapest ended the alliance with the party.[^1956break] But a break with Moscow was not a break with revolution, and that is where Chomsky's sentence picks up.
+
+::: {.todo-figure}
+[Photo to add]{.todo-label}
+Budapest, October–November 1956: Soviet armour in the streets. A good candidate is the CIA photograph of a Soviet tank clearing a barricade, which is in the public domain as a work of the US government and is on Wikimedia Commons.
+:::
+
+### 1968–1976: looking east
+
+Some who turned away from Moscow turned towards Beijing, especially after May 1968. The emblematic case is [*Tel Quel*](https://en.wikipedia.org/wiki/Tel_Quel), the avant-garde review founded in 1960 by Philippe Sollers and Jean-Edern Hallier, where much of what would later be called "French theory" first appeared. *Tel Quel* broke with the PCF in 1971 and declared for Mao.[^telquel]
+
+::: {.sr-ts}
+[00:34 in the video](https://www.youtube.com/watch?v=772WncdxCSw&t=34s)
+:::
+
+> I don't know if it's fair to mention names, but let's say Kristeva. I happened to meet [her] in the mid-'70s — flaming Maoist.
+
+Here Chomsky's date and description fit. Julia Kristeva, born in 1941 in Sliven, Bulgaria, and in Paris since the mid-1960s, was a semiotician (and later a psychoanalyst) at the heart of *Tel Quel*; she had been married to Sollers since 1967. From 11 April to 4 May 1974 she toured China with Sollers, the poet Marcelin Pleynet, Roland Barthes and the publisher François Wahl, on a trip organised down to the hour by Chinese officials.[^china] The same year she published *Des Chinoises*, a book about the condition of Chinese women whose idealised picture of China was later sharply criticised, notably by feminist and postcolonial readers.[^chinoises]
+
+Not everyone on that trip was a flaming anything. Barthes's notebooks, published only in 2009, record mostly boredom, and growing exasperation with the identical slogans recited at every factory and commune, which he called "bricks".[^barthes] At *Tel Quel* the enthusiasm did not last either: in the autumn of 1976 the review publicly distanced itself from Maoism. Kristeva later turned these years into fiction in her novel *Les Samouraïs* (1990).
+
+::: {.todo-figure}
+[Portraits to add]{.todo-label}
+Julia Kristeva in the 1970s; Jean-Paul Sartre and Simone de Beauvoir in the 1950s. Use Wikimedia Commons and copy the credit line from the file's licensing section.
+:::
+
+### What the generalisation leaves out
+
+"The" French intellectuals were never a single bloc, and the exceptions are not minor figures:
+
+- Raymond Aron spent the period arguing against his peers' communism. His [*L'Opium des intellectuels*](https://en.wikipedia.org/wiki/The_Opium_of_the_Intellectuals) (1955) turns Marx's line about religion around: in post-war France, Marxism was the opium of the intellectuals.
+- Albert Camus's *L'Homme révolté* (1951) indicted revolutionary terror. A hostile review by Francis Jeanson in *Les Temps modernes* (May 1952), followed by an exchange of letters published in August, ended his friendship with Sartre.[^camus]
+- On the far left, the group [*Socialisme ou Barbarie*](https://en.wikipedia.org/wiki/Socialisme_ou_Barbarie) around Cornelius Castoriadis and Claude Lefort, whose journal began in March 1949, described the USSR as a bureaucratic form of state capitalism and supported the Hungarian insurgents in 1956.
+
+The standard history of these years, Tony Judt's *Past Imperfect*, is as severe as Chomsky about the fellow travellers, but it keeps these dissenters in view. There is also an irony worth noting. Chomsky calls himself a libertarian socialist, with no use for Leninist parties, so his own politics are closer to *Socialisme ou Barbarie* than to anyone else in this story.
+
+<figure class="sr-drawing">
+<div class="sr-scroll">
+<svg viewBox="0 0 760 312" role="img" aria-labelledby="tl-title tl-desc" xmlns="http://www.w3.org/2000/svg">
+<title id="tl-title">Timeline, 1944 to 1977</title>
+<desc id="tl-desc">From the Liberation to the new philosophers: the fellow-travelling years 1944 to 1956, the shocks of 1956, and the Maoist turn of 1968 to 1976.</desc>
+<rect x="52.0" y="159" width="245.0" height="22" rx="4" class="pencil" opacity="0.13"/>
+<text x="60.0" y="153" font-size="10" class="pencil" font-style="italic">fellow-travelling years</text>
+<rect x="528.0" y="159" width="168.0" height="22" rx="4" class="pencil" opacity="0.13"/>
+<text x="536.0" y="153" font-size="10" class="pencil" font-style="italic">Maoist turn</text>
+<line x1="30" y1="170" x2="730" y2="170" class="stroke-ink" stroke-width="1.2"/>
+<line x1="60.0" y1="166" x2="60.0" y2="174" class="stroke-ink" stroke-width="1"/>
+<text x="60.0" y="191" font-size="9" text-anchor="middle" class="graphite">1945</text>
+<line x1="160.0" y1="166" x2="160.0" y2="174" class="stroke-ink" stroke-width="1"/>
+<text x="160.0" y="191" font-size="9" text-anchor="middle" class="graphite">1950</text>
+<line x1="260.0" y1="166" x2="260.0" y2="174" class="stroke-ink" stroke-width="1"/>
+<text x="260.0" y="191" font-size="9" text-anchor="middle" class="graphite">1955</text>
+<line x1="360.0" y1="166" x2="360.0" y2="174" class="stroke-ink" stroke-width="1"/>
+<text x="360.0" y="191" font-size="9" text-anchor="middle" class="graphite">1960</text>
+<line x1="460.0" y1="166" x2="460.0" y2="174" class="stroke-ink" stroke-width="1"/>
+<text x="460.0" y="191" font-size="9" text-anchor="middle" class="graphite">1965</text>
+<line x1="560.0" y1="166" x2="560.0" y2="174" class="stroke-ink" stroke-width="1"/>
+<text x="560.0" y="191" font-size="9" text-anchor="middle" class="graphite">1970</text>
+<line x1="660.0" y1="166" x2="660.0" y2="174" class="stroke-ink" stroke-width="1"/>
+<text x="660.0" y="191" font-size="9" text-anchor="middle" class="graphite">1975</text>
+<line x1="53.0" y1="164" x2="53.0" y2="136" class="stroke-pencil" stroke-width="1" stroke-dasharray="2 2"/>
+<circle cx="53.0" cy="170" r="4.2" class="pencil"/>
+<text x="53.0" y="112" font-size="11" text-anchor="start" class="pencil" font-weight="600">Aug 1944</text>
+<text x="53.0" y="128" font-size="11" text-anchor="start" class="ink">Liberation of Paris</text>
+<line x1="212.0" y1="164" x2="212.0" y2="86" class="stroke-pencil" stroke-width="1" stroke-dasharray="2 2"/>
+<circle cx="212.0" cy="170" r="4.2" class="pencil"/>
+<text x="212.0" y="46" font-size="11" text-anchor="middle" class="pencil" font-weight="600">1952</text>
+<text x="212.0" y="62" font-size="11" text-anchor="middle" class="ink">Sartre’s “Les Communistes</text>
+<text x="212.0" y="78" font-size="11" text-anchor="middle" class="ink">et la paix”; break with Camus</text>
+<line x1="283.0" y1="164" x2="283.0" y2="136" class="stroke-pencil" stroke-width="1" stroke-dasharray="2 2"/>
+<circle cx="283.0" cy="170" r="4.2" class="pencil"/>
+<text x="283.0" y="112" font-size="11" text-anchor="middle" class="pencil" font-weight="600">25 Feb 1956</text>
+<text x="283.0" y="128" font-size="11" text-anchor="middle" class="ink">Khrushchev’s Secret Speech</text>
+<line x1="528.0" y1="164" x2="528.0" y2="120" class="stroke-pencil" stroke-width="1" stroke-dasharray="2 2"/>
+<circle cx="528.0" cy="170" r="4.2" class="pencil"/>
+<text x="528.0" y="112" font-size="11" text-anchor="middle" class="pencil" font-weight="600">May 1968</text>
+<line x1="646.0" y1="164" x2="646.0" y2="86" class="stroke-pencil" stroke-width="1" stroke-dasharray="2 2"/>
+<circle cx="646.0" cy="170" r="4.2" class="pencil"/>
+<text x="646.0" y="46" font-size="11" text-anchor="middle" class="pencil" font-weight="600">Apr–May 1974</text>
+<text x="646.0" y="62" font-size="11" text-anchor="middle" class="ink">Tel Quel in China;</text>
+<text x="646.0" y="78" font-size="11" text-anchor="middle" class="ink">Gulag published in French</text>
+<line x1="704.0" y1="164" x2="704.0" y2="136" class="stroke-ink" stroke-width="1" stroke-dasharray="2 2"/>
+<circle cx="704.0" cy="170" r="4.2" class="graphite"/>
+<text x="704.0" y="96" font-size="11" text-anchor="end" class="graphite" font-weight="600">1977</text>
+<text x="704.0" y="112" font-size="11" text-anchor="end" class="ink">the “new philosophers”</text>
+<text x="704.0" y="128" font-size="11" text-anchor="end" class="ink">(see §V)</text>
+<line x1="144.0" y1="176" x2="144.0" y2="198" class="stroke-pencil" stroke-width="1" stroke-dasharray="2 2"/>
+<circle cx="144.0" cy="170" r="4.2" class="pencil"/>
+<text x="144.0" y="210" font-size="11" text-anchor="middle" class="pencil" font-weight="600">Mar 1949</text>
+<text x="144.0" y="226" font-size="11" text-anchor="middle" class="ink">Socialisme ou Barbarie</text>
+<text x="144.0" y="242" font-size="11" text-anchor="middle" class="ink">begins publishing</text>
+<line x1="270.0" y1="176" x2="270.0" y2="254" class="stroke-pencil" stroke-width="1" stroke-dasharray="2 2"/>
+<circle cx="270.0" cy="170" r="4.2" class="pencil"/>
+<text x="270.0" y="266" font-size="11" text-anchor="end" class="pencil" font-weight="600">1955</text>
+<text x="270.0" y="282" font-size="11" text-anchor="end" class="ink">Aron, L’Opium</text>
+<text x="270.0" y="298" font-size="11" text-anchor="end" class="ink">des intellectuels</text>
+<line x1="296.8" y1="176" x2="296.8" y2="198" class="stroke-pencil" stroke-width="1" stroke-dasharray="2 2"/>
+<circle cx="296.8" cy="170" r="4.2" class="pencil"/>
+<text x="296.8" y="210" font-size="11" text-anchor="start" class="pencil" font-weight="600">4 Nov 1956</text>
+<text x="296.8" y="226" font-size="11" text-anchor="start" class="ink">Soviet tanks crush</text>
+<text x="296.8" y="242" font-size="11" text-anchor="start" class="ink">the Budapest uprising</text>
+<line x1="590.0" y1="176" x2="590.0" y2="198" class="stroke-pencil" stroke-width="1" stroke-dasharray="2 2"/>
+<circle cx="590.0" cy="170" r="4.2" class="pencil"/>
+<text x="590.0" y="210" font-size="11" text-anchor="end" class="pencil" font-weight="600">1971</text>
+<text x="590.0" y="226" font-size="11" text-anchor="end" class="ink">Tel Quel breaks with</text>
+<text x="590.0" y="242" font-size="11" text-anchor="end" class="ink">the PCF, turns Maoist</text>
+<line x1="696.0" y1="176" x2="696.0" y2="254" class="stroke-pencil" stroke-width="1" stroke-dasharray="2 2"/>
+<circle cx="696.0" cy="170" r="4.2" class="pencil"/>
+<text x="696.0" y="266" font-size="11" text-anchor="end" class="pencil" font-weight="600">Autumn 1976</text>
+<text x="696.0" y="282" font-size="11" text-anchor="end" class="ink">Tel Quel drops Maoism</text>
+</svg>
+
+</div>
+<figcaption>From the Liberation to the "new philosophers". Blue marks the events discussed in this section; grey marks events taken up later.</figcaption>
+</figure>
+
+<details class="curious">
+<summary>For the curious</summary>
+
+- **What Khrushchev actually said.** Lewis Siegelbaum's short essay [on the Secret Speech](https://soviethistory.msu.edu/1956/khrushchevs-secret-speech/) in *Seventeen Moments in Soviet History* explains the speech and its context. The [full text](https://digitalarchive.wilsoncenter.org/document/115995) is in the Wilson Center's Digital Archive.
+- **Tel Quel in China.** Stuart Elden's [blog post](https://progressivegeographies.com/2026/05/03/tel-quel-goes-to-china-sollers-kristeva-barthes-pleynet-wahl-and-the-cultural-revolution/) on *Progressive Geographies* gathers every account of the trip, by all five travellers and by later historians. For Barthes's side, see [this review of his *Travels in China*](https://lareviewofbooks.org/article/the-sideways-gaze-roland-barthess-travels-in-china/) in the *Los Angeles Review of Books*.
+- **The Sartre–Camus quarrel.** Ronald Aronson, *Camus and Sartre: The Story of a Friendship and the Quarrel That Ended It* (University of Chicago Press, 2004).
+- **The whole period.** Tony Judt, *Past Imperfect: French Intellectuals, 1944–1956* (1992). For a more sympathetic reading of Sartre, see Ian H. Birchall, [*Sartre Against Stalinism*](https://www.berghahnbooks.com/title/9781571816214) (Berghahn, 2004).
+
+</details>
+
+## II. An insular culture {#sec-insular}
+
+*Annotation in progress.*
+
+## III. Logical positivism {#sec-positivism}
+
+*Annotation in progress.*
+
+## IV. Darwin in France {#sec-darwin}
+
+*Annotation in progress.*
+
+## V. The *Gulag* shock {#sec-gulag}
+
+*Annotation in progress.*
+
+## VI. Intellectuals as media stars {#sec-vedettes}
+
+*Annotation in progress.*
+
+## VII. "There is no truth" {#sec-truth}
+
+*Annotation in progress.*
+
+## VIII. The cost for the Third World {#sec-third-world}
+
+*Annotation in progress.*
+
+[^mutualite]: Chomsky spoke on "Contours of World Order: Continuities, Changes, and Challenges" at the Théâtre de la Mutualité on 29 May 2010, in an evening organised by *Le Monde diplomatique*. A [recording with the questions from the floor](https://znetwork.org/zaudio/noam-chomsky-talk-at-mutualite-with-q-and-a-by-y-brody/) is on ZNetwork. An essay on the clip also describes it as a 2011 interview, but the original recording has not yet been traced.
+
+[^fusilles]: On the inflated figure and the historians' count, see the column "[Duclos, Duclos](https://www.livreshebdo.fr/article/duclos-duclos)" in *Livres Hebdo*. The reference work on those executed is Claude Pennetier, Jean-Pierre Besse, Delphine Leneveu and Thomas Pouty (eds.), *Les Fusillés. Dictionnaire biographique des fusillés et exécutés par condamnation et comme otages ou guillotinés pendant la Seconde Guerre mondiale* (2015).
+
+[^judt]: Tony Judt, *Past Imperfect: French Intellectuals, 1944–1956* (Berkeley: University of California Press, 1992; reissued New York University Press, 2011).
+
+[^sartre52]: Sartre, "Les Communistes et la paix", *Les Temps modernes*, July 1952 and October–November 1952; reprinted in *Situations VI* (Gallimard, 1964). On how far Sartre's alignment really went, see Ian H. Birchall, [*Sartre Against Stalinism*](https://www.berghahnbooks.com/title/9781571816214) (Berghahn, 2004), which argues that his relations with the communists were more contradictory than his critics allow.
+
+[^khrushchev]: "On the Cult of Personality and Its Consequences", delivered on 25 February 1956. The [English text](https://digitalarchive.wilsoncenter.org/document/115995) released by the US State Department on 4 June 1956 is in the Wilson Center Digital Archive. In the USSR the full text was not officially published until the end of the 1980s.
+
+[^fantome]: Sartre's condemnation came on 9 November 1956, in a long interview in *L'Express*. "Le Fantôme de Staline" appeared in *Les Temps modernes*, nos. 129–131 (November 1956 to January 1957), and was reprinted in *Situations VII* (Gallimard, 1965). See the [Britannica account](https://www.britannica.com/biography/Jean-Paul-Sartre/Political-activities) of Sartre's political activities.
+
+[^1956break]: The PCF also lost the friendship of popular performers such as Yves Montand and Simone Signoret. In 1968 the invasion of Czechoslovakia ended what was left of Sartre's sympathy for the Soviet Union.
+
+[^telquel]: Sources differ on the date by a year. The break with the PCF and the public turn to Maoism came in 1971; the review's historian Philippe Forest dates its official Maoism from 1972, when two special issues on China appeared in spring and summer. See Philippe Forest, *Histoire de Tel Quel, 1960–1982* (Seuil, 1995), and Patrick ffrench, *The Time of Theory: A History of Tel Quel (1960–1983)* (Oxford: Clarendon Press, 1995).
+
+[^china]: For the dates and the members of the delegation, see Hanna Hacker, "[La Chine, mon amour?](https://journals.univie.ac.at/index.php/oezg/article/download/3844/3583/7005)", *Österreichische Zeitschrift für Geschichtswissenschaften* 22, no. 1 (2011).
+
+[^chinoises]: Julia Kristeva, *Des Chinoises* (Paris: Éditions des femmes, 1974); English translation *About Chinese Women* (London: Marion Boyars, 1977). The book was accused of a "romantic" and "utopian" picture of the East; the best-known critique is Gayatri Chakravorty Spivak's essay "French Feminism in an International Frame" (1981).
+
+[^barthes]: Roland Barthes, *Carnets du voyage en Chine* (2009); English translation *Travels in China* (Polity). At the time, Barthes published only a short article on the trip, "Alors, la Chine?" (1974).
+
+[^camus]: Francis Jeanson, "Albert Camus ou l'âme révoltée", *Les Temps modernes*, no. 79 (May 1952). Camus's "Lettre au directeur des *Temps modernes*", dated 30 June 1952, appeared with replies by Sartre and Jeanson in no. 82 (August 1952).

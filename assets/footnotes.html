@@ -1,0 +1,91 @@
+<script>
+/* Second Reading — click a note number to open the note right next to it.
+   Click again, click elsewhere, press Esc or the × to close.
+   The full list of notes stays at the bottom of the page (for print and reference). */
+(function () {
+  var current = null;
+
+  function close(returnFocus) {
+    if (!current) return;
+    current.pop.remove();
+    current.ref.setAttribute('aria-expanded', 'false');
+    if (returnFocus) current.ref.focus();
+    current = null;
+  }
+
+  function place(pop, ref) {
+    var r = ref.getBoundingClientRect();
+    var vw = document.documentElement.clientWidth;
+    var width = Math.min(416, vw - 24);
+    pop.style.width = width + 'px';
+    var left = r.left + window.scrollX + r.width / 2 - width / 2;
+    var minLeft = window.scrollX + 12;
+    var maxLeft = window.scrollX + vw - width - 12;
+    pop.style.left = Math.max(minLeft, Math.min(left, maxLeft)) + 'px';
+    var below = r.bottom + window.scrollY + 8;
+    pop.style.top = below + 'px';
+    var h = pop.offsetHeight;
+    if (r.bottom + 8 + h > window.innerHeight && r.top - 8 - h > 0) {
+      pop.style.top = (r.top + window.scrollY - h - 8) + 'px';
+    }
+  }
+
+  function open(ref) {
+    var id = decodeURIComponent((ref.getAttribute('href') || '').split('#').pop());
+    var note = document.getElementById(id);
+    if (!note) return;
+    var pop = document.createElement('div');
+    pop.className = 'fn-popover';
+    pop.setAttribute('role', 'dialog');
+    pop.setAttribute('aria-label', 'Note ' + ref.textContent.trim());
+    var body = note.cloneNode(true);
+    body.removeAttribute('id');
+    body.querySelectorAll('.footnote-back, [role="doc-backlink"]').forEach(function (a) { a.remove(); });
+    var num = document.createElement('div');
+    num.className = 'fn-num';
+    num.textContent = 'Note ' + ref.textContent.trim();
+    var btn = document.createElement('button');
+    btn.className = 'fn-close';
+    btn.type = 'button';
+    btn.setAttribute('aria-label', 'Close note');
+    btn.innerHTML = '&times;';
+    btn.addEventListener('click', function () { close(true); });
+    pop.appendChild(btn);
+    pop.appendChild(num);
+    while (body.firstChild) pop.appendChild(body.firstChild);
+    pop.querySelectorAll('a[href^="http"]').forEach(function (a) {
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener');
+    });
+    document.body.appendChild(pop);
+    place(pop, ref);
+    ref.setAttribute('aria-expanded', 'true');
+    current = { ref: ref, pop: pop };
+  }
+
+  function init() {
+    document.querySelectorAll('a.footnote-ref').forEach(function (ref) {
+      ref.setAttribute('role', 'button');
+      ref.setAttribute('aria-expanded', 'false');
+      ref.setAttribute('aria-haspopup', 'dialog');
+      ref.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var same = current && current.ref === ref;
+        close(false);
+        if (!same) open(ref);
+      });
+    });
+    document.addEventListener('click', function (e) {
+      if (current && !current.pop.contains(e.target)) close(false);
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') close(true);
+    });
+    window.addEventListener('resize', function () { if (current) place(current.pop, current.ref); });
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>

@@ -1,0 +1,27 @@
+---
+title: "About"
+toc: false
+---
+
+*Second Reading* takes recorded talks and lectures and reads them a second time, slowly. Spoken explanations are full of gaps: a name mentioned in passing, a date rounded off, a claim made from memory. Each edition here fills those gaps, checks the claims against sources, adds precise dates and notes, and illustrates where a picture or a drawing helps.
+
+## How sources are chosen
+
+Each claim is checked against the best source available, in roughly this order:
+
+1. **Primary sources:** the document itself, such as a speech, a letter, an archive record or a first edition.
+2. **Scholarship:** academic books and articles by specialists of the period or field.
+3. **Reference works and institutions:** encyclopedias such as Britannica, and the institutions concerned, such as a university, a museum or a research institute.
+4. **General overviews:** Wikipedia and similar sites, linked when they are the clearest place to start, never as the only support for a contested claim.
+
+Where sources disagree, the notes say so.
+
+## Rights
+
+Speakers' words are quoted briefly, for commentary, with a link to the original recording. Images come from collections that allow reuse, such as Wikimedia Commons and public-domain archives, and each one carries its credit and licence. Drawings and timelines are original.
+
+Unless stated otherwise, the notes and essays on this site are published under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): you may share and adapt them for non-commercial purposes, with credit.
+
+## How it is made
+
+Research and drafting are done with the help of an AI assistant (Claude, by Anthropic). Every factual note links to its source so that readers can check it. If you spot an error, please [open an issue on GitHub](https://github.com/saintemmma-stack/saintemmma-stack.github.io/issues).
