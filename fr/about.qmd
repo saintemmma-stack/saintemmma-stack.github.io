@@ -1,0 +1,27 @@
+---
+title: "À propos"
+toc: false
+---
+
+*Second Reading* reprend des conférences et des entretiens enregistrés et les relit une seconde fois, lentement. Les explications orales sont pleines de lacunes : un nom cité en passant, une date arrondie, une affirmation faite de mémoire. Chaque édition comble ces lacunes, vérifie les affirmations à leurs sources, ajoute des dates précises et des notes, et illustre quand une image ou un dessin aide à comprendre.
+
+## Le choix des sources
+
+Chaque affirmation est vérifiée à la meilleure source disponible, à peu près dans cet ordre :
+
+1. **Sources primaires :** le document lui-même, par exemple un discours, une lettre, une archive ou une édition originale.
+2. **Travaux savants :** livres et articles de spécialistes de la période ou du domaine.
+3. **Ouvrages de référence et institutions :** encyclopédies comme le Larousse ou Britannica, et les institutions concernées (université, musée, bibliothèque, institut de recherche).
+4. **Synthèses générales :** Wikipédia et sites comparables, cités lorsqu'ils sont le meilleur point de départ, jamais comme seul appui d'une affirmation discutée.
+
+Les liens de la version française renvoient de préférence à des sources en français de qualité équivalente ; les sources choisies peuvent donc différer d'une langue à l'autre. Quand les sources se contredisent, les notes le signalent.
+
+## Droits
+
+Les paroles des intervenants sont citées brièvement, à des fins de commentaire, avec un lien vers l'enregistrement d'origine ; dans la version française, elles sont traduites par nos soins, avec le texte original à un clic. Les images proviennent de collections qui en autorisent la réutilisation, comme Wikimedia Commons et les archives du domaine public, et chacune porte son crédit et sa licence. Les dessins et chronologies sont originaux.
+
+Sauf mention contraire, les notes et essais de ce site sont publiés sous licence [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.fr) : vous pouvez les partager et les adapter à des fins non commerciales, en citant la source.
+
+## Fabrication
+
+La recherche et la rédaction sont faites avec l'aide d'un assistant d'IA (Claude, d'Anthropic). Chaque note factuelle renvoie à sa source pour que chacun puisse vérifier. Si vous repérez une erreur, vous pouvez [ouvrir un ticket sur GitHub](https://github.com/saintemmma-stack/saintemmma-stack.github.io/issues).

@@ -8,7 +8,7 @@ working on the site from any chat.
 *Second Reading* publishes annotated editions of recorded talks and lectures.
 Each edition fills the gaps in what the speaker says, checks claims against
 sources, adds precise dates, footnotes, links, pictures and drawings.
-Language: **English**.
+Languages: **English and French**. Every page exists in both (see "Two languages" below).
 
 ## How it is built
 
@@ -22,14 +22,19 @@ _quarto.yml                  site settings, navigation, theme
 index.qmd                    home page: the library list
 about.qmd                    about, sourcing policy, rights
 assets/                      theme (light.scss, dark.scss, common.scss), fonts, note popovers
-works/<slug>/index.qmd       one folder per work
-works/<slug>/images/         images for that work, each with a credit
+works/<slug>/index.qmd       one folder per work (English)
+works/<slug>/images/         images for that work, each with a credit (shared by both languages)
+fr/                          the French site: same structure (fr/index.qmd, fr/about.qmd, fr/works/<slug>/index.qmd)
+fr/_metadata.yml             French defaults (lang, table-of-contents title, labels)
+tools/                       scripts that generate drawings (e.g. timelines, in EN and FR)
+.github/workflows/           publish.yml (build + deploy), check-links.yml (weekly link check)
 ```
 
 ## Adding a new work
 
-1. Create `works/<short-slug>/index.qmd` (lowercase, hyphens).
-2. Add an entry to the `<ul class="sr-library">` list in `index.qmd`.
+1. Create `works/<short-slug>/index.qmd` (lowercase, hyphens) and its French twin
+   `fr/works/<short-slug>/index.qmd`.
+2. Add an entry to the `<ul class="sr-library">` list in `index.qmd` and in `fr/index.qmd`.
 3. Front matter: `title`, `subtitle` (speaker, date, what the edition is), `date-modified: last-modified`.
 4. While unfinished, start the page with a `::: {.sr-status}` line saying what is done.
 5. A multi-chapter work (a lecture series) gets one folder with one `.qmd` per chapter
@@ -37,10 +42,12 @@ works/<slug>/images/         images for that work, each with a credit
 
 ## Writing conventions
 
-**Tone.** Clear, scholarly, never stiff. Personal remarks are welcome when they
-add something (an irony, a judgement, a connection), but phrased as the edition's
-judgement, not as invented personal experience: write "There is an irony here",
-not "I was surprised to find".
+**Tone.** Clear, scholarly, never stiff, and humble. The edition reports what the
+sources say; it does not lecture the speaker or the reader. Prefer "may understate"
+to "is wrong", "it is perhaps worth noting" to "the irony is obvious". Personal
+remarks are welcome when they add something (a judgement, a connection), but
+phrased as the edition's judgement, not as invented personal experience: never
+"I was surprised to find".
 
 **The speaker's words.** Quote them briefly in a blockquote, each preceded by a
 timestamp link to the recording:
@@ -64,8 +71,9 @@ public repository.
 note number opens the note next to the text. Each note gives full bibliographic
 details and, where possible, a link.
 
-**Inline links** are for explanations: a link on the name of an event, person or
-work, to a page that explains it to a curious reader.
+**Inline links** are for explanations: a link on the name of an event, person,
+organisation, text or concept, to a page that explains it to a curious reader.
+Link the **first mention** only. See "Choosing link targets" below.
 
 **"For the curious" boxes** suggest further reading at the end of a section:
 
@@ -85,9 +93,61 @@ disagree, say so in a note.
 
 Every factual claim must rest on a source that was actually checked. In order of
 preference: primary sources → scholarship → reference works and institutions →
-general overviews (Wikipedia: fine as a first link, never the only support for a
-contested claim). Only link URLs that were verified to exist and to say what the
-note claims.
+general overviews. Footnotes **prove**: they point to the most authoritative source,
+even a book. When sources disagree, the note says so and names them.
+
+## Choosing link targets
+
+A link **explains**: it points to the best free explanation a curious reader can
+read in a few minutes.
+
+| What is linked | First choice | Then |
+|---|---|---|
+| Philosopher or concept | *Stanford Encyclopedia of Philosophy* | *Internet Encyclopedia of Philosophy*, Britannica |
+| Other person | Page of an institution tied to them (Nobel Prize, Collège de France, Institut Pasteur…) | Britannica, Wikipedia |
+| Event | A university or archive teaching project (e.g. *Seventeen Moments in Soviet History*) | Britannica, Wikipedia |
+| Text or book | The text itself if legally free (Gallica/BnF, archive.org, university sourcebooks) | Scholarly or institutional page about it, Britannica |
+| Organisation or journal | Its own archive or an institutional page | Britannica, Wikipedia |
+
+Rules:
+
+- Every target must be written or edited by people with expertise, free to read
+  (no paywall: no Universalis), stable, and explanatory rather than opinionated.
+  Avoid blogs, SEO sites, AI-generated aggregators, and partisan sites (unless the
+  partisan site is itself the primary source).
+- **Wikipedia only when nothing on a better line of the table exists** for that item.
+- **Accuracy beats rank:** if a higher-ranked page is wrong on the point at hand,
+  use the next one (and say so in a note if it matters).
+- When the best page is in another language, add "(in French)" / "(en anglais)".
+- **Open every URL before using it** and check that it says what we claim.
+  The weekly link check (`check-links.yml`) reports links that break later by
+  opening an issue on GitHub.
+
+## Two languages
+
+- English pages live at `/…`, French pages at `/fr/…`, with **the same path** after `/fr`.
+- The EN | FR switch in the navigation bar takes the reader to **the same place**
+  in the other language. It relies on two rules, which every edit must respect:
+  1. **Same heading ids** in both versions: give every `##` and `###` an explicit id,
+     identical in both files (`## I. Les derniers staliniens {#sec-stalinists}`).
+  2. **Same sequence of blocks** under each heading: the same number and order of
+     paragraphs, quotes, lists, figures, boxes and timestamps. Translate block by
+     block; never merge or split paragraphs in only one language.
+- In French, the speaker's words are translated by the edition, with the original
+  inside the quote:
+
+```markdown
+> Traduction française.
+>
+> <details class="sr-original"><summary>Texte original</summary>Original English words.</details>
+```
+
+- French links point to French-language sources of equal quality when they exist
+  (Larousse, BnF, French Wikipedia under the same rule as above); the targets can
+  therefore differ between the two versions. Notes cite French editions of books
+  when they exist.
+- Workflow: write and agree the English section first, then translate it.
+  Every later correction is made in both files.
 
 ## Images and drawings
 

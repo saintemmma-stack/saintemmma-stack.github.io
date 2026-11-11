@@ -1,0 +1,20 @@
+---
+pagetitle: "Second Reading"
+toc: false
+---
+
+::: {.sr-hero}
+# Second Reading
+
+::: {.lead}
+Des conférences et des entretiens relus une seconde fois, lentement : transcrits, vérifiés à leurs sources, datés, annotés et illustrés.
+:::
+:::
+
+<ul class="sr-library">
+<li>
+<div class="sr-work-title"><a href="works/chomsky-french-intellectuals/">L'étrange bulle des intellectuels français</a></div>
+<p>Noam Chomsky sur le stalinisme, le maoïsme, les modes parisiennes et l'idée qu'il n'y aurait pas de vérité, dans un extrait d'entretien de huit minutes enregistré vers 2011.</p>
+<p class="sr-meta">Édition annotée, en cours : section I sur VIII</p>
+</li>
+</ul>

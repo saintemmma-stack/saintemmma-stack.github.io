@@ -1,15 +1,19 @@
 # Generates the inline SVG timeline for section I (1944-1978).
-import html
+import html, sys
+LANG = sys.argv[1] if len(sys.argv) > 1 else "en"
 X0, X1, Y0, Y1 = 40, 720, 1944, 1978
 def x(y): return X0 + (y - Y0) * (X1 - X0) / (Y1 - Y0)
 AX = 170
 out = []
 W, H = 760, 312
 out.append(f'<svg viewBox="0 0 {W} {H}" role="img" aria-labelledby="tl-title tl-desc" xmlns="http://www.w3.org/2000/svg">')
-out.append('<title id="tl-title">Timeline, 1944 to 1977</title>')
-out.append('<desc id="tl-desc">From the Liberation to the new philosophers: the fellow-travelling years 1944 to 1956, the shocks of 1956, and the Maoist turn of 1968 to 1976.</desc>')
+T = {"en": ("Timeline, 1944 to 1977", "From the Liberation to the new philosophers: the fellow-travelling years 1944 to 1956, the shocks of 1956, and the Maoist turn of 1968 to 1976."),
+     "fr": ("Chronologie, 1944-1977", "De la Libération aux nouveaux philosophes : les années de compagnonnage 1944-1956, les chocs de 1956 et le tournant maoïste de 1968-1976.")}[LANG]
+out.append(f'<title id="tl-title">{T[0]}</title>')
+out.append(f'<desc id="tl-desc">{T[1]}</desc>')
 # bands
-for a, b, label in [(1944.6, 1956.85, "fellow-travelling years"), (1968.4, 1976.8, "Maoist turn")]:
+BANDS = {"en": ["fellow-travelling years", "Maoist turn"], "fr": ["années de compagnonnage", "tournant maoïste"]}[LANG]
+for (a, b), label in zip([(1944.6, 1956.85), (1968.4, 1976.8)], BANDS):
     out.append(f'<rect x="{x(a):.1f}" y="{AX-11}" width="{x(b)-x(a):.1f}" height="22" rx="4" class="pencil" opacity="0.13"/>')
     out.append(f'<text x="{x(a)+8:.1f}" y="{AX-17}" font-size="10" class="pencil" font-style="italic">{label}</text>')
 # axis
@@ -18,7 +22,7 @@ for yr in range(1945, 1980, 5):
     out.append(f'<line x1="{x(yr):.1f}" y1="{AX-4}" x2="{x(yr):.1f}" y2="{AX+4}" class="stroke-ink" stroke-width="1"/>')
     out.append(f'<text x="{x(yr):.1f}" y="{AX+21}" font-size="9" text-anchor="middle" class="graphite">{yr}</text>')
 # events: (year, side, level, anchor, lines, here)
-E = [
+E_EN = [
  (1944.65, "up", 1, "start", ["Aug 1944", "Liberation of Paris"], True),
  (1952.6, "up", 2, "middle", ["1952", "Sartre’s “Les Communistes", "et la paix”; break with Camus"], True),
  (1956.15, "up", 1, "middle", ["25 Feb 1956", "Khrushchev’s Secret Speech"], True),
@@ -31,6 +35,20 @@ E = [
  (1971.5, "down", 1, "end", ["1971", "Tel Quel breaks with", "the PCF, turns Maoist"], True),
  (1976.8, "down", 2, "end", ["Autumn 1976", "Tel Quel drops Maoism"], True),
 ]
+E_FR = [
+ (1944.65, "up", 1, "start", ["Août 1944", "Libération de Paris"], True),
+ (1952.6, "up", 2, "middle", ["1952", "Sartre, « Les Communistes", "et la paix » ; rupture avec Camus"], True),
+ (1956.15, "up", 1, "middle", ["25 févr. 1956", "Rapport secret de Khrouchtchev"], True),
+ (1968.4, "up", 1, "middle", ["Mai 1968"], True),
+ (1974.3, "up", 2, "middle", ["Avr.–mai 1974", "Tel Quel en Chine ;", "L’Archipel du Goulag en français"], True),
+ (1977.2, "up", 1, "end", ["1977", "les « nouveaux philosophes »", "(voir § V)"], False),
+ (1949.2, "down", 1, "middle", ["Mars 1949", "premier numéro de", "Socialisme ou Barbarie"], True),
+ (1955.5, "down", 2, "end", ["1955", "Aron, L’Opium", "des intellectuels"], True),
+ (1956.84, "down", 1, "start", ["4 nov. 1956", "les chars soviétiques écrasent", "l’insurrection de Budapest"], True),
+ (1971.5, "down", 1, "end", ["1971", "Tel Quel rompt avec", "le PCF, virage maoïste"], True),
+ (1976.8, "down", 2, "end", ["Automne 1976", "Tel Quel abandonne le maoïsme"], True),
+]
+E = E_FR if LANG == "fr" else E_EN
 for yr, side, lvl, anchor, lines, here in E:
     cx = x(yr)
     cls = "pencil" if here else "graphite"

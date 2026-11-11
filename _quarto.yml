@@ -4,6 +4,7 @@ project:
   render:
     - "*.qmd"
     - "works/**/*.qmd"
+    - "fr/**/*.qmd"
 
 website:
   title: "Second Reading"
@@ -17,6 +18,13 @@ website:
         text: Library
       - href: about.qmd
         text: About
+    right:
+      - text: "EN"
+        href: index.qmd
+        aria-label: "English"
+      - text: "FR"
+        href: fr/index.qmd
+        aria-label: "Français"
   page-footer:
     left: "Notes and essays: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Quoted speech belongs to its speakers; images carry their own credits."
     right: "[Source on GitHub](https://github.com/saintemmma-stack/saintemmma-stack.github.io)"
@@ -28,7 +36,9 @@ format:
       dark: [default, assets/dark.scss, assets/common.scss]
     respect-user-color-scheme: true
     include-in-header: assets/head.html
-    include-after-body: assets/footnotes.html
+    include-after-body:
+      - assets/footnotes.html
+      - assets/lang.html
     footnotes-hover: false
     reference-location: document
     toc: true

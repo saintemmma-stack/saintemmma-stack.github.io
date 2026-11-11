@@ -1,0 +1,138 @@
+<script>
+/* Second Reading — EN | FR switch.
+   English pages live at /..., French pages at /fr/... with the same structure.
+   Switching language keeps the reader at the same place: the switch records the
+   nearest section heading and the block's position under it, and the other page
+   scrolls to the matching block. This works because both versions keep the same
+   heading ids and the same sequence of blocks (see CONTRIBUTING.md). */
+(function () {
+  var FR_PREFIX = /^\/fr(\/|$)/;
+  var path = window.location.pathname;
+  var isFr = FR_PREFIX.test(path);
+  var SEL = 'h1,h2,h3,h4,p,blockquote,ul,ol,figure,details,table,.sr-ts,.sr-status,.todo-figure,.quarto-video';
+
+  function counterpart(p) {
+    if (isFr) return p.replace(FR_PREFIX, '/');
+    return '/fr' + p;
+  }
+
+  function blocks() {
+    var main = document.getElementById('quarto-document-content') || document.querySelector('main');
+    if (!main) return [];
+    return Array.prototype.filter.call(main.querySelectorAll(SEL), function (el) {
+      if (el.closest('#footnotes, section.footnotes, #title-block-header')) return false;
+      var parent = el.parentElement && el.parentElement.closest(SEL);
+      return !(parent && main.contains(parent));
+    });
+  }
+
+  function anchorOf(el) {
+    return (el.dataset && el.dataset.anchorId) || el.id || '';
+  }
+
+  function headerOffset() {
+    var nav = document.getElementById('quarto-header');
+    return (nav ? nav.getBoundingClientRect().height : 60) + 12;
+  }
+
+  function currentPosition() {
+    var bl = blocks();
+    var top = headerOffset();
+    for (var i = 0; i < bl.length; i++) {
+      var r = bl[i].getBoundingClientRect();
+      if (r.bottom > top) {
+        if (i === 0 && r.top >= top) return null; // still at the top of the page
+        var f = r.height > 0 ? Math.min(1, Math.max(0, (top - r.top) / r.height)) : 0;
+        for (var j = i; j >= 0; j--) {
+          if (/^H[2-4]$/.test(bl[j].tagName) && anchorOf(bl[j])) {
+            return { h: anchorOf(bl[j]), k: i - j, i: i, f: f };
+          }
+        }
+        return { h: '', k: i, i: i, f: f };
+      }
+    }
+    return null;
+  }
+
+  function encode(pos) {
+    return 'sr-pos=' + encodeURIComponent(pos.h) + '|' + pos.k + '|' + pos.i + '|' + pos.f.toFixed(3);
+  }
+
+  function restore() {
+    var m = window.location.search.match(/[?&]sr-pos=([^|&]*)\|(\d+)\|(\d+)\|([\d.]+)/);
+    if (!m) return;
+    var h = decodeURIComponent(m[1]), k = +m[2], i = +m[3], f = +m[4];
+    var bl = blocks();
+    var target = null;
+    if (h) {
+      for (var j = 0; j < bl.length; j++) {
+        if (anchorOf(bl[j]) === h) { target = bl[j + k] || bl[j]; break; }
+      }
+    }
+    if (!target) target = bl[Math.min(i, bl.length - 1)];
+    history.replaceState(null, '', window.location.pathname + window.location.hash);
+    if (!target) return;
+    var r = target.getBoundingClientRect();
+    window.scrollTo({ top: window.scrollY + r.top + f * r.height - headerOffset(), behavior: 'instant' });
+  }
+
+  function translateChrome() {
+    if (!isFr) return;
+    var brand = document.querySelector('a.navbar-brand');
+    if (brand) brand.setAttribute('href', '/fr/');
+    document.querySelectorAll('#quarto-header .nav-link').forEach(function (a) {
+      var t = a.textContent.trim();
+      var span = a.querySelector('.menu-text') || a;
+      if (t === 'Library') { span.textContent = 'Bibliothèque'; a.setAttribute('href', '/fr/'); }
+      if (t === 'About') { span.textContent = 'À propos'; a.setAttribute('href', '/fr/about.html'); }
+    });
+    var left = document.querySelector('.nav-footer-left');
+    if (left) left.innerHTML = 'Notes et essais : <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr">CC BY-NC 4.0</a>. Les propos cités appartiennent à leurs auteurs ; les images portent leurs propres crédits.';
+    var right = document.querySelector('.nav-footer-right');
+    if (right) right.innerHTML = '<a href="https://github.com/saintemmma-stack/saintemmma-stack.github.io">Code source sur GitHub</a>';
+  }
+
+  function setupSwitch() {
+    document.querySelectorAll('#quarto-header .nav-link').forEach(function (a) {
+      var t = a.textContent.trim();
+      if (t !== 'EN' && t !== 'FR') return;
+      var li = a.closest('li');
+      if (li) li.classList.add('sr-lang');
+      var active = (t === 'FR') === isFr;
+      if (active) {
+        a.classList.add('sr-lang-active');
+        a.setAttribute('aria-current', 'true');
+        a.removeAttribute('href');
+        return;
+      }
+      a.setAttribute('lang', t === 'FR' ? 'fr' : 'en');
+      a.setAttribute('href', counterpart(path));
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        var dest = counterpart(window.location.pathname);
+        var pos = currentPosition();
+        var url = dest + (pos ? '?' + encode(pos) : '');
+        fetch(dest, { method: 'HEAD' }).then(function (res) {
+          window.location.href = res.ok ? url : (isFr ? '/' : '/fr/');
+        }).catch(function () { window.location.href = url; });
+      });
+    });
+  }
+
+  function init() {
+    translateChrome();
+    setupSwitch();
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+
+  if (/[?&]sr-pos=/.test(window.location.search)) {
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    window.addEventListener('load', function () {
+      var go = function () { restore(); };
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { setTimeout(go, 30); });
+      else setTimeout(go, 60);
+    });
+  }
+})();
+</script>

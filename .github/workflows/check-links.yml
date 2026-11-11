@@ -1,0 +1,40 @@
+name: Check links
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 6 * * 1"   # every Monday
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render site
+        run: quarto render
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Some encyclopedias answer 403/429 to robots; those are not counted as broken.
+          args: >-
+            --no-progress --max-retries 2 --timeout 30
+            --accept 200,206,403,429
+            --exclude 'youtube\.com' --exclude 'localhost'
+            --root-dir "${{ github.workspace }}/_site"
+            '_site/**/*.html'
+          fail: false
+      - name: Report broken links as an issue
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Broken links found by the weekly check
+          content-filepath: ./lychee/out.md
+          labels: broken-links

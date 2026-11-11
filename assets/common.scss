@@ -219,3 +219,44 @@ figure.sr-drawing {
 
 // Video embeds keep their ratio.
 .quarto-video { margin: 1.5rem 0 2rem; }
+
+// ---- French pages: the speaker's original words, one click away ----
+details.sr-original {
+  margin-top: 0.55rem;
+  font-style: normal;
+  > summary {
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    font-family: $ui-font;
+    font-size: 0.74rem;
+    font-weight: 500;
+    color: var(--sr-graphite);
+  }
+  > summary::-webkit-details-marker { display: none; }
+  > summary::before { content: "+ "; }
+  &[open] > summary::before { content: "− "; }
+  > summary:hover { color: var(--sr-pencil); }
+  > summary:focus-visible { outline: 2px solid var(--sr-pencil); outline-offset: 2px; border-radius: 3px; }
+  &[open] { color: var(--sr-graphite); font-size: 0.92em; }
+}
+
+// ---- EN | FR switch in the navigation bar ----
+#quarto-header .sr-lang .nav-link {
+  font-family: $ui-font;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+  color: var(--sr-graphite);
+}
+#quarto-header .sr-lang .nav-link.sr-lang-active {
+  color: var(--sr-ink);
+  cursor: default;
+  text-decoration: underline;
+  text-decoration-color: var(--sr-pencil);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.35em;
+}
+#quarto-header .sr-lang + .sr-lang { border-left: 1px solid var(--sr-rule); }
