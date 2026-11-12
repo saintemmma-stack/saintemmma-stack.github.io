@@ -5,7 +5,7 @@ date-modified: last-modified
 ---
 
 ::: {.sr-status}
-Travail en cours. La section I sur VIII est annotée ; les autres suivront.
+Les huit sections sont annotées. Les photos sont en cours d'ajout ; les emplacements marqués indiquent où elles iront.
 :::
 
 Dans un extrait de huit minutes qui circule sur YouTube sous le titre *The Strange Bubble of French Intellectuals*, Noam Chomsky esquisse la vie intellectuelle française depuis 1945 : le stalinisme, puis le maoïsme, puis une conversion soudaine à l'anticommunisme, une culture qu'il juge repliée sur elle-même, des penseurs devenus vedettes des médias, et un scepticisme à la mode à l'égard de la vérité, auquel il reproche d'avoir détourné les intellectuels des luttes politiques.
@@ -171,31 +171,328 @@ L'histoire la plus connue de ces années, *Un passé imparfait* de Tony Judt, es
 
 ## II. Une culture repliée sur elle-même {#sec-insular}
 
-*Annotation en cours.*
+::: {.sr-ts}
+[00:47 – 01:12 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=47s)
+:::
+
+> Il existe en France une tradition, qui n'est pas sans fondement, selon laquelle les intellectuels français seraient en quelque sorte au sommet de la vie culturelle. […] En fait, la France est une culture extrêmement repliée sur elle-même — elle l'a toujours été.
+>
+> <details class="sr-original"><summary>Texte original</summary>There's a history in France, which has some justification, that the French intellectuals are somehow at the peak of cultural life. […] In fact, France is an extremely insular culture — always has been.</details>
+
+Chomsky reconnaît à cette vieille prétention française « un certain fondement », et il n'est peut-être pas inutile de rappeler lequel. Pendant deux siècles, le français a été la langue commune des cours, de la diplomatie et du savoir en Europe. L'historienne de la littérature Pascale Casanova est allée plus loin : elle a décrit Paris comme le « méridien de Greenwich » de la littérature mondiale, le lieu où les écrivains venus d'ailleurs ont longtemps cherché leur reconnaissance et leur consécration[^casanova].
+
+« Replié sur soi » est plus difficile à mesurer. Une mesure approximative est la traduction : la part de ce qu'un pays lit qui vient d'ailleurs. À cette aune, l'édition française n'a rien de fermé. D'après les enquêtes annuelles de l'hebdomadaire professionnel *Livres Hebdo*, les traductions représentent entre 14 et 19 % des titres nouveaux publiés en France de 2009 à 2019, soit environ un livre sur six, et à peu près 40 % des romans nouveaux[^translations]. Aux États-Unis, selon le chiffre le plus souvent cité, les traductions représentent environ 3 % de l'édition littéraire[^threepercent]. Les deux chiffres ne mesurent pas exactement la même chose, mais l'écart est considérable, et il va dans le sens inverse de la remarque de Chomsky.
+
+{{< include _figures/translations.md >}}
+
+Les chiffres de l'édition disent toutefois peu de chose de ce qui se passe dans les séminaires et les revues. Une grande partie de ce qui est traduit en français relève du roman, de la bande dessinée et de la jeunesse, et provient surtout de l'anglais ; en 2012, alors que les traductions augmentaient dans leur ensemble, celles des sciences humaines reculaient[^humanities]. Le reproche de Chomsky porte sur autre chose : quelles idées étrangères les intellectuels français prenaient au sérieux. Pierre Bourdieu, qui partageait nombre des positions politiques de Chomsky, a décrit un mécanisme qui joue dans tous les sens. Dans une conférence de 1989 sur « les conditions sociales de la circulation internationale des idées », il soutenait que les textes circulent sans leur contexte et sont lus à travers les catégories du champ qui les reçoit[^bourdieu]. Les sections III et IV examinent deux cas où, selon Chomsky, rien n'est passé ; la section VIII regarde ce qui s'est produit quand les idées françaises ont elles-mêmes traversé l'Atlantique.
+
+<details class="curious">
+<summary>Pour aller plus loin</summary>
+
+- **Paris, capitale littéraire.** Pascale Casanova, *La République mondiale des lettres* (Seuil, 1999 ; rééd. 2008).
+- **Ce que la France traduit, et ce qu'elle exporte.** L'[étude de Gisèle Sapiro sur les échanges littéraires entre Paris et New York](https://sgdl.org/phocadownload/ressources/etudes/2010%20-%20MOTIF%20-%20Les%20%C3%A9changes%20litt%C3%A9raires%20entre%20Paris%20et%20New%20York%20(synth%C3%A8se).pdf) (MOTIF, 2010 ; synthèse) compare la place de la traduction dans les deux éditions.
+
+</details>
 
 ## III. Le positivisme logique {#sec-positivism}
 
-*Annotation en cours.*
+::: {.sr-ts}
+[01:12 – 02:05 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=72s)
+:::
+
+> Il s'est répandu dans le monde entier dans les années 1920 et 1930 […] Il n'a jamais atteint la France. Les premières traductions françaises des travaux, disons, des positivistes de Vienne datent en fait des années 1980.
+>
+> <details class="sr-original"><summary>Texte original</summary>It spread over the world in the '20s and '30s […] It never reached France. The first translations into French of the work of, say, the Vienna positivists were actually in the 1980s.</details>
+
+Le positivisme logique, qu'on appelle aussi empirisme logique, était la philosophie du [cercle de Vienne](https://www.universalis.fr/encyclopedie/cercle-de-vienne/), réuni autour de Moritz Schlick, Otto Neurath et [Rudolf Carnap](https://www.universalis.fr/encyclopedie/rudolf-carnap/). Il s'est fait connaître en 1929 par un manifeste, *La Conception scientifique du monde*. Son programme, pour le dire simplement : la philosophie doit clarifier le langage de la science, et les énoncés qui ne peuvent ni être confrontés à l'expérience ni être démontrés par la seule logique sont dépourvus de sens. La plus grande partie de la métaphysique traditionnelle tombait ainsi.
+
+### Un passage à Paris, 1935-1937 {#sec-positivism-paris}
+
+Le mouvement a bien atteint la France, au moins brièvement. Deux essais de Carnap paraissent en français en 1933 et 1934, dans une collection scientifique de l'éditeur parisien Hermann[^carnapfr]. En septembre 1935, le [premier Congrès international pour l'unité de la science](https://shs.hal.science/halshs-01864570) se réunit à la Sorbonne, avec quelque 160 à 170 savants et philosophes, sous la double direction de Neurath et du philosophe français Louis Rougier. Une réunion plus modeste suit à Paris en juillet 1937, en marge du grand congrès international de philosophie qu'on a appelé le Congrès Descartes[^congress].
+
+Ce passage laisse peu de traces. L'historien de la philosophie Michel Bourdeau parle de la « non-réception » du mouvement en France, et se demande dans quelle mesure la personnalité très controversée de Rougier en a détourné les philosophes français[^bourdeau]. Quand le cercle se disperse après l'Anschluss de 1938, ses membres partent pour la Grande-Bretagne et les États-Unis, non pour la France. « Jamais atteint la France » est peut-être trop fort ; « jamais pris racine » correspondrait mieux aux faits.
+
+### Pierre Jacob, 1980 {#sec-positivism-jacob}
+
+::: {.sr-ts}
+[01:46 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=106s)
+:::
+
+> C'est un jeune philosophe français, Pierre Jacob, qui est venu à Boston, l'a découvert, est rentré et a traduit des travaux des années 1930 et 1940.
+>
+> <details class="sr-original"><summary>Texte original</summary>It was a young French philosopher, Pierre Jacob, who came to Boston, learned about it, came back and translated work from the 1930s and '40s.</details>
+
+Ici, le souvenir de Chomsky est proche des faits, avec un léger décalage. Pierre Jacob soutient son doctorat à Harvard en 1978. En 1980, il publie deux livres à Paris. Le premier, *L'Empirisme logique* (Minuit), est une histoire et une critique du mouvement, et s'ouvre sur la phrase : « Les Français n'aiment pas la philosophie analytique »[^jacob]. Le second, *De Vienne à Cambridge* (Gallimard), est une anthologie, mais il présente l'héritage du mouvement « de 1950 à nos jours » (Quine, Putnam, Hempel, Popper, Kuhn et d'autres) plutôt que les textes viennois des années 1930. Ceux-ci suivent quelques années plus tard : une édition française du manifeste de 1929 et d'autres écrits du cercle, dirigée par Antonia Soulez, paraît en 1985[^soulez]. Pour les textes fondateurs, « les années 1980 » est donc juste.
+
+Le philosophe qui a le plus fait pour faire vivre cette tradition en France, Jacques Bouveresse, reparaîtra dans la section VII.
+
+{{< include _figures/positivism.md >}}
+
+::: {.todo-figure}
+[Photo à ajouter]{.todo-label}
+Un portrait d'Otto Neurath ou de Rudolf Carnap dans les années 1930. Plusieurs figurent sur Wikimedia Commons ; vérifier que la licence permet la réutilisation et recopier la mention de crédit.
+:::
+
+<details class="curious">
+<summary>Pour aller plus loin</summary>
+
+- **Le positivisme logique en une page.** L'article [« positivisme logique »](https://www.larousse.fr/encyclopedie/philosophie/positivisme_logique/192028) du *Dictionnaire de la philosophie* Larousse, par Roger Pouivet.
+- **Le congrès de 1935.** L'étude de Michel Bourdeau sur la [correspondance entre Neurath et Rougier](https://shs.hal.science/halshs-01864570) raconte la réunion de Paris et son faible écho en France.
+
+</details>
 
 ## IV. Darwin en France {#sec-darwin}
 
-*Annotation en cours.*
+::: {.sr-ts}
+[02:37 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=157s)
+:::
+
+> Au moment où l'article a été écrit, c'était la doctrine scientifique admise partout — à une exception près : la France. Un grand nombre de biologistes professionnels étaient encore pré-darwiniens.
+>
+> <details class="sr-original"><summary>Texte original</summary>By the time the article was written, it was the standard scientific doctrine everywhere — with one exception: France. A large number of the professional biologists were still pre-Darwinian.</details>
+
+### L'article {#sec-darwin-article}
+
+Chomsky ne nomme pas l'article et parle d'une « revue scientifique ». Un texte correspond de près à sa description. En 1974, le biologiste Ernst Mayr et l'historien William Provine réunissent des historiens et des fondateurs encore vivants de la « synthèse évolutive » (la fusion, dans les années 1930 et 1940, de la sélection naturelle darwinienne et de la génétique) pour comparer son sort d'un pays à l'autre. Leur volume, *The Evolutionary Synthesis*, paraît en 1980, une trentaine d'années avant l'entretien. Il contient un chapitre sur la France du généticien Ernest Boesiger, qui qualifie le pays, sur ce point, d'« espèce de fossile vivant », où « environ 95 % » des biologistes et des philosophes seraient « plus ou moins opposés au darwinisme »[^boesiger]. C'est peut-être ce texte dont Chomsky se souvient, même si l'on ne peut en être certain.
+
+Boesiger n'exagérait pas outre mesure. Pendant plusieurs générations, la théorie dominante dans les universités françaises fut une forme de néo-[lamarckisme](https://www.larousse.fr/encyclopedie/philosophie/lamarckisme/191811), l'idée que les caractères acquis au cours de la vie d'un organisme peuvent se transmettre. Deux historiens de la biologie française écrivent qu'aucune autre nation scientifique ne s'est opposée à la génétique et à la synthèse « aussi fortement » ni aussi longtemps[^loison]. Le zoologiste Pierre-Paul Grassé, titulaire de la chaire d'évolution de la Sorbonne, publie encore en 1973 *L'Évolution du vivant*, une attaque contre le darwinisme que le généticien Theodosius Dobzhansky a sévèrement critiquée.
+
+Les historiens ont depuis nuancé le tableau. La génétique mendélienne était largement connue et bien comprise en France dès 1900 ; ce que les biologistes français refusaient, c'était l'idée qu'elle puisse expliquer l'hérédité sans la physiologie[^burian]. Il y eut aussi des darwiniens et des généticiens français, parmi lesquels Georges Teissier et Philippe L'Héritier, dont les études de populations de drosophiles ont contribué à la synthèse. « Un grand nombre » est appuyé par le témoignage de Boesiger ; « pré-darwiniens » décrit mieux les chaires les plus en vue que l'ensemble de la profession.
+
+### Le laboratoire de Monod {#sec-darwin-monod}
+
+::: {.sr-ts}
+[02:56 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=176s)
+:::
+
+> La seule raison pour laquelle ce n'est pas vrai à 100 %, c'est que Jacques Monod avait été dans la Résistance, et qu'en récompense de ses services on lui a accordé un petit laboratoire.
+>
+> <details class="sr-original"><summary>Texte original</summary>The only reason it isn't 100% true is that Jacques Monod had been in the Resistance, and as a reward for his Resistance service he was granted a small laboratory.</details>
+
+L'ami de Chomsky n'est pas nommé. Un candidat plausible est [Salvador Luria](https://www.universalis.fr/encyclopedie/salvador-luria/), prix Nobel en 1969, son collègue au MIT, que Chomsky appelle ailleurs « un ami à moi, prix Nobel de biologie ». Luria a travaillé à Paris, à l'Institut du radium, de 1938 à 1940, puis de nouveau à l'Institut Pasteur en 1963-1964, même s'il avait été formé à Turin. Ce n'est qu'une hypothèse.
+
+L'histoire elle-même condense quelque chose de vrai. [Jacques Monod](https://www.college-de-france.fr/fr/personne/jacques-monod) a bien été résistant, d'abord dans un groupe dirigé par les communistes, puis dans le commandement militaire des Forces françaises de l'intérieur. Mais c'est à la fin de 1945 qu'il entre à l'Institut Pasteur comme chef de laboratoire dans le service dirigé par André Lwoff ; nous n'avons trouvé aucune source décrivant un laboratoire qui lui aurait été donné en récompense[^monod]. Le service de Lwoff, créé en 1938 sous les combles d'un vieux bâtiment, est resté célèbre sous le nom de « grenier ». François Jacob le rejoint en 1950. De ce petit groupe, logé dans un institut privé en dehors de l'université, sont sortis le modèle de l'opéron et l'idée d'ARN messager (1960-1961), puis le prix Nobel de physiologie ou médecine de 1965, partagé par Jacob, Lwoff et Monod « pour leurs découvertes concernant le contrôle génétique de la synthèse des enzymes et des virus »[^nobel].
+
+Monod a ensuite défendu une vision résolument darwinienne du vivant dans *Le Hasard et la Nécessité* (1970), devenu un succès international de librairie.
+
+{{< include _figures/attic.md >}}
+
+::: {.todo-figure}
+[Photo à ajouter]{.todo-label}
+L'Institut Pasteur à Paris, ou un portrait de Jacques Monod. Les photos de la Fondation Nobel ne sont pas sous licence libre ; chercher sur Wikimedia Commons une image du domaine public ou sous licence Creative Commons et recopier sa mention de crédit.
+:::
+
+<details class="curious">
+<summary>Pour aller plus loin</summary>
+
+- **Pourquoi la France a résisté à la génétique.** Richard Burian, Jean Gayon et Doris Zallen, « [The Singular Fate of Genetics in the History of French Biology, 1900–1940](https://halshs.archives-ouvertes.fr/halshs-00775435v1/file/Gayon-singular-fate-genetics.pdf) », *Journal of the History of Biology* 21 (1988, en anglais).
+- **Les néo-lamarckiens.** L'article [« Néo-lamarckisme »](https://www.universalis.fr/encyclopedie/neo-lamarckisme/) de l'*Encyclopædia Universalis* distingue les différentes formes de la doctrine.
+- **La vie au grenier.** Les souvenirs de François Jacob, *La Statue intérieure* (Odile Jacob, 1987), et l'article « [Dans le grenier du prix Nobel](https://infectiologie.lequotidiendumedecin.fr/specialites/genetique/dans-le-grenier-du-prix-nobel-pasteur) » du *Quotidien du médecin*.
+
+</details>
 
 ## V. Le choc de *L'Archipel du Goulag* {#sec-gulag}
 
-*Annotation en cours.*
+::: {.sr-ts}
+[03:45 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=225s)
+:::
+
+> L'une des choses qui l'ont fait s'effondrer, c'est que *L'Archipel du Goulag* de Soljenitsyne a été traduit en France — une énorme sensation. Du jour au lendemain, tout le monde est devenu un anticommuniste passionné.
+>
+> <details class="sr-original"><summary>Texte original</summary>One of the things that caused it to collapse was that Solzhenitsyn's Gulag was translated in France — big sensation. All of a sudden everyone became a passionate anti-communist.</details>
+
+### 1973-1977 : la sensation {#sec-gulag-sensation}
+
+Les dates sont claires. Le premier tome de [*L'Archipel du Goulag*](https://www.larousse.fr/encyclopedie/oeuvre/Archipel_du_Goulag/105997) d'Alexandre Soljenitsyne paraît en russe à Paris, chez l'éditeur de l'émigration YMCA-Press, le 28 décembre 1973. Soljenitsyne est arrêté à Moscou le 12 février 1974 et expulsé d'Union soviétique le lendemain. La traduction française du premier tome suit en 1974 et se vend à quelque 600 000 exemplaires en moins de trois mois[^gulagdates].
+
+La « sensation » est bien documentée. En 1975, André Glucksmann, ancien maoïste, publie *La Cuisinière et le mangeur d'hommes*, qui trace une ligne du marxisme aux camps. En juin 1976, Bernard-Henri Lévy présente un groupe de jeunes auteurs comme les « nouveaux philosophes » dans *Les Nouvelles littéraires*, et publie en 1977 *La Barbarie à visage humain*. Le 27 mai 1977, Glucksmann et Lévy sont les invités d'*Apostrophes*, l'émission littéraire de Bernard Pivot, et les [nouveaux philosophes](https://www.universalis.fr/encyclopedie/bernard-henri-levy/) deviennent un sujet pour la presse internationale[^newphil]. Tous ne sont pas convaincus : Gilles Deleuze leur répond le même printemps qu'ils travaillent avec de grosses notions dualistes, sans nuances.
+
+### « Des choses que je savais à dix ans » {#sec-gulag-ten}
+
+::: {.sr-ts}
+[04:06 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=246s)
+:::
+
+> Je me souviens d'être allé là-bas et d'avoir entendu de grands intellectuels dire des choses que je savais quand j'avais dix ans, parce que nous les lisions à l'époque.
+>
+> <details class="sr-original"><summary>Texte original</summary>I remember going there and hearing from leading intellectuals things I knew when I was ten years old, because we were reading it then.</details>
+
+Chomsky est né en décembre 1928 ; « dix ans » renvoie donc à 1938-1939, les années des [procès de Moscou](https://www.britannica.com/event/Great-Purge) (en anglais), que la gauche antistalinienne américaine suivait de près. Chomsky a raconté que son premier article politique, écrit pour le journal de son école en février 1939, portait sur la chute de Barcelone[^ten].
+
+Son argument est que les faits sur la répression soviétique étaient connus bien avant 1974, et c'était vrai en France aussi. De janvier à avril 1949, un tribunal parisien entend des semaines de témoignages sur les camps soviétiques lors du procès en diffamation que le transfuge Victor Kravchenko intente à l'hebdomadaire communiste *Les Lettres françaises*. Parmi les témoins figure Margarete Buber-Neumann, communiste allemande déportée par la police politique soviétique, puis livrée à la Gestapo. Kravchenko gagne son procès le 4 avril 1949[^kravchenko]. En novembre de la même année, David Rousset, rescapé de Buchenwald, appelle les anciens déportés à enquêter sur les camps soviétiques.
+
+Les historiens ont ajouté un second point, qui donne en partie raison à Chomsky. Michael Scott Christofferson soutient que l'« effet Goulag » est en grande partie un récit rétrospectif : le tournant antitotalitaire de la fin des années 1970 est né des critiques du communisme élaborées depuis 1956, et des craintes suscitées par l'alliance des socialistes et des communistes en marche vers le pouvoir en 1977-1978. Dans cette lecture, le livre de Soljenitsyne fut l'occasion plus que la cause[^christofferson].
+
+{{< include _figures/gulag.md >}}
+
+### 1979-1980 : la querelle de Chomsky avec Paris {#sec-gulag-faurisson}
+
+Il semble juste d'ajouter que Chomsky n'est pas ici un témoin neutre. En 1979, il signe une pétition défendant la « liberté de parole et d'expression » de Robert Faurisson, enseignant de lettres à l'université de Lyon qui niait l'existence des chambres à gaz nazies. Critiqué, il écrit un court texte sur le droit à la libre expression, daté du 11 octobre 1980, et autorise ses destinataires à en faire l'usage qu'ils voudront ; le texte est imprimé en préface du *Mémoire en défense* de Faurisson (1980). Chomsky a dit ensuite qu'il n'avait pas voulu cet usage et qu'il avait demandé, trop tard, son retrait[^faurisson]. Le texte lui-même a des mots durs pour « certains secteurs de l'intelligentsia française ». L'historien Pierre Vidal-Naquet, qui jugeait la pétition « scandaleuse », est devenu l'un de ses critiques les plus vifs, et même des lecteurs qui partageaient sa défense de la liberté d'expression ont souvent estimé qu'il était allé trop loin en se portant garant de Faurisson lui-même. Mieux vaut garder cette querelle à l'esprit quand Chomsky parle des « grands intellectuels » parisiens.
+
+::: {.todo-figure}
+[Photo à ajouter]{.todo-label}
+Soljenitsyne en Occident en 1974, peu après son expulsion. Les Archives nationales néerlandaises (Nationaal Archief, fonds Anefo) ont publié sur Wikimedia Commons des photos de presse de l'époque sous licence libre ; vérifier la licence du fichier choisi.
+:::
+
+<details class="curious">
+<summary>Pour aller plus loin</summary>
+
+- **Le tournant des années 1970.** Michael Scott Christofferson, *Les Intellectuels contre la gauche. L'idéologie antitotalitaire en France (1968-1981)* (Agone, 2009), traduction de [*French Intellectuals Against the Left*](https://berghahnbooks.com/title/ChristoffersonFrench) (Berghahn, 2004).
+- **Le procès Kravchenko.** Nina Berberova, qui suivit les audiences, a écrit *L'Affaire Kravtchenko* (Actes Sud, 1990). Un compte rendu de l'époque sur le témoignage de Buber-Neumann a paru dans [*The Militant*](https://www.marxists.org/history/etol/newspape/themilitant/1949/v13n12/kravchenko.htm) le 21 mars 1949 (en anglais).
+- **Le texte de Chomsky.** Le [texte de « Some Elementary Comments on the Rights of Freedom of Expression »](https://chomsky.info/19801011/) figure sur son site (en anglais).
+
+</details>
 
 ## VI. Des intellectuels vedettes {#sec-vedettes}
 
-*Annotation en cours.*
+::: {.sr-ts}
+[04:20 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=260s)
+:::
+
+> Les intellectuels français ont tendance à être des vedettes — des stars des médias. Ils sont pris très au sérieux ; ils font la une du *Monde*, etc. Ce n'est probablement pas une bonne chose.
+>
+> <details class="sr-original"><summary>Texte original</summary>The French intellectuals tend to be vedettes — media stars. French intellectuals are taken very seriously; they're on the front pages of Le Monde and so on. It's probably not a good thing.</details>
+
+Le statut public des intellectuels français a une longue histoire. On fait d'ordinaire remonter la figure de l'écrivain ou du savant qui intervient dans les affaires publiques à l'affaire Dreyfus, et à la [lettre ouverte d'Émile Zola, « J'accuse…! »](https://www.britannica.com/topic/Jaccuse) (en anglais), publiée à la une de *L'Aurore* le 13 janvier 1898. En 1980 encore, ce statut pouvait remplir les rues : lors des obsèques de Jean-Paul Sartre, le 19 avril 1980, environ 50 000 personnes suivirent le corbillard, et Claude Lanzmann parla de « la dernière manif de 68 »[^sartre].
+
+### « Quelque chose de passionnant à dire » {#sec-vedettes-exciting}
+
+::: {.sr-ts}
+[04:51 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=291s)
+:::
+
+> Alors il faut trouver des idées folles, et là on peut faire la une.
+>
+> <details class="sr-original"><summary>Texte original</summary>So you have to come up with crazy ideas, and then you can make it to the front pages.</details>
+
+Des observateurs français avaient avancé des idées voisines. Dans *Le Pouvoir intellectuel en France* (1979), Régis Debray distinguait trois cycles du pouvoir intellectuel : un cycle universitaire (1880-1930), un cycle éditorial (1920-1960) et un cycle médiatique ouvert en 1968, où l'influence appartient à qui dispose de la télévision et de la grande presse[^debray]. La télévision y a beaucoup contribué. Du 10 janvier 1975 au 22 juin 1990, l'émission en direct de Bernard Pivot, [*Apostrophes*](https://www.larousse.fr/archives/journaux_annee/1986/142/la_500e_d_apostrophes), pouvait faire la fortune d'un livre en un vendredi soir ; l'émission de 1977 avec les nouveaux philosophes passe souvent pour l'acte de naissance de l'« intellectuel médiatique »[^apostrophes]. Dans deux cours télévisés en mai 1996 et publiés sous le titre *Sur la télévision*, Pierre Bourdieu décrivait les « fast thinkers » que la télévision invite parce qu'ils peuvent commenter à chaud n'importe quel sujet[^tv].
+
+Reste à savoir si tout cela est propre à la France. Debray voyait dans la France le « paradis politique » des intellectuels ; dans son compte rendu, le critique Francis Mulhern répondait qu'il faisait « trop d'honneur » au contraste national[^mulhern]. Il existe ailleurs des intellectuels célèbres, et la logique médiatique que décrit Chomsky n'explique pas à elle seule le succès des idées françaises sur les campus américains (section VIII), où rares étaient les lecteurs qui avaient jamais vu *Apostrophes*.
+
+{{< include _figures/cycles.md >}}
+
+::: {.todo-figure}
+[Image à ajouter]{.todo-label}
+La une de *L'Aurore* du 13 janvier 1898 avec « J'accuse…! » de Zola. Elle est dans le domaine public ; une numérisation est disponible sur Gallica (Bibliothèque nationale de France) et sur Wikimedia Commons.
+:::
+
+<details class="curious">
+<summary>Pour aller plus loin</summary>
+
+- **L'intellectuel français comme type.** Michel Winock, *Le Siècle des intellectuels* (Seuil, 1997), suit cette figure de Barrès à Sartre.
+- **Le livre de Debray et sa réception.** Le [*Journal de l'année* Larousse 1979](https://www.larousse.fr/archives/journaux_annee/1979/220/idees) résume les trois cycles et l'accueil partagé du livre ; l'[essai critique de Francis Mulhern](https://newleftreview.net/issues/i126/articles/francis-mulhern-teachers-writers-celebrities-intelligentsias-and-their-histories) dans la *New Left Review* (en anglais) en discute la traduction anglaise.
+
+</details>
 
 ## VII. « Il n'y a pas de vérité » {#sec-truth}
 
-*Annotation en cours.*
+::: {.sr-ts}
+[05:11 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=311s)
+:::
+
+> …dire que tout était faux : les Lumières avaient tort ; il n'y a pas de fondationnalisme. Ils ont raison, il n'y a pas de fondationnalisme — on le savait au XVIIe siècle.
+>
+> <details class="sr-original"><summary>Texte original</summary>…say everything was wrong: the Enlightenment was wrong; there's no foundationalism. They're right, there's no foundationalism — that was known in the 17th century.</details>
+
+### Ce qu'est le fondationnalisme {#sec-truth-foundations}
+
+Le [fondationnalisme](https://plato.stanford.edu/entries/justep-foundational/) (en anglais) est la thèse selon laquelle la connaissance a une base : certaines croyances sont justifiées sans dépendre d'autres croyances, et tout le reste repose sur elles. Les *Méditations* de Descartes (1641) sont la tentative classique de trouver une telle base à l'abri de tout doute.
+
+Quand Chomsky dit que l'échec de ce projet « était connu au XVIIe siècle », il suit le récit de l'historien Richard Popkin. Face à la crise sceptique de leur temps, Marin Mersenne et [Pierre Gassendi](https://plato.stanford.edu/entries/gassendi/) (en anglais) ont élaboré ce que Popkin appelle un scepticisme « mitigé » ou « constructif » : la certitude est hors de portée, mais une connaissance probable des apparences suffit à la science[^popkin]. Le cercle de Vienne de la section III avait sa propre image d'une connaissance sans fondement : [Otto Neurath](https://www.universalis.fr/encyclopedie/otto-neurath/) nous comparait à des marins qui doivent reconstruire leur bateau en pleine mer, planche par planche, sans jamais pouvoir le mettre en cale sèche. Dans cette tradition, renoncer aux fondements ne veut pas dire renoncer à la vérité.
+
+{{< include _figures/foundations.md >}}
+
+### Qui a dit qu'il n'y a pas de vérité ? {#sec-truth-who}
+
+Chomsky ne nomme personne. La formule la plus souvent associée à l'état d'esprit qu'il décrit est la définition du postmoderne par Jean-François Lyotard comme « incrédulité à l'égard des métarécits », dans *La Condition postmoderne* (1979), un rapport rédigé pour le Conseil des universités du Québec[^lyotard]. On peut noter toutefois que les penseurs habituellement cités ont rarement dit qu'il n'y avait pas de vérité. [Michel Foucault](https://plato.stanford.edu/Entries/foucault/) (en anglais) a écrit l'histoire de la manière dont des institutions comme la psychiatrie ou la prison décident de ce qui compte comme vrai, et il était aussi un militant engagé, l'un des fondateurs du Groupe d'information sur les prisons en 1971. Chomsky le savait de première main : les deux hommes avaient débattu de la nature humaine, de la justice et du pouvoir à la [télévision néerlandaise en 1971](https://chomsky.info/1971xxxx) (en anglais).
+
+Une version plus ciblée de la critique de Chomsky est venue du physicien Alan Sokal. En 1996, il fait publier un article délibérément dénué de sens dans la revue d'études culturelles *Social Text*, puis révèle le [canular](https://fr.wikipedia.org/wiki/Affaire_Sokal). En octobre 1997, avec Jean Bricmont, il publie *Impostures intellectuelles*, un relevé d'usages abusifs de termes scientifiques chez Lacan, Kristeva, Baudrillard, Deleuze et d'autres[^sokal]. Leur cible était plus étroite que celle de Chomsky : l'abus de la science et un relativisme sur la connaissance, plutôt que la politique de ceux qui le professaient.
+
+### La question du jeune homme {#sec-truth-question}
+
+::: {.sr-ts}
+[06:07 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=367s)
+:::
+
+> Bertrand Russell nous dit que nous devons chercher la vérité. Mais les philosophes nous disent qu'il n'y a pas de vérité. Alors que devons-nous faire ?
+>
+> <details class="sr-original"><summary>Texte original</summary>Bertrand Russell tells us we should look for the truth. But the philosophers tell us there is no truth. So what should we do?</details>
+
+La question vient de la salle, à la Mutualité, le 29 mai 2010[^mutualite]. La veille, Chomsky avait parlé au Collège de France, lors d'un colloque organisé par le philosophe [Jacques Bouveresse](https://www.college-de-france.fr/chaire/jacques-bouveresse-philosophie-du-langage-et-de-la-connaissance-chaire-statutaire/news) sous le titre « [Rationalité, vérité et démocratie : Bertrand Russell, George Orwell, Noam Chomsky](https://www.college-de-france.fr/fr/actualites/rationalite-verite-et-democratie-bertrand-russell-george-orwell-noam-chomsky-colloque-organise-par) »[^colloquium]. Bouveresse (1940-2021) avait consacré sa carrière à défendre en France la tradition analytique, celle dont la section III décrit l'arrivée tardive, et à critiquer l'obscurité à la mode. Il est possible que le jeune homme ait eu ce colloque en tête en invoquant Russell.
+
+Chomsky glose les « philosophes » de la question : ce sont « les gens à la mode qui se disent philosophes en France ». Il ajoute une thèse plus forte : cette « tendance irrationnelle » aurait été bien accueillie parce qu'elle sapait l'engagement militant. Cette thèse est discutée. Les défenseurs de Foucault et de ses contemporains font valoir que leur critique des prétentions à une vérité neutre était elle-même politique, dirigée contre la manière dont l'expertise sert le pouvoir, et que plusieurs d'entre eux étaient des militants. Chomsky et ceux qui le défendent répondent qu'on ne peut combattre efficacement le pouvoir si l'on doute que des faits puissent être établis. Le désaccord est ancien, et le débat de 1971 le contient déjà presque en entier.
+
+::: {.todo-figure}
+[Photo à ajouter]{.todo-label}
+Chomsky et Foucault lors du débat télévisé de 1971. Des photos de presse des Archives nationales néerlandaises (Nationaal Archief, fonds Anefo) figurent sur Wikimedia Commons ; vérifier la licence du fichier choisi. Un portrait de Gassendi (domaine public) conviendrait aussi à cette section.
+:::
+
+<details class="curious">
+<summary>Pour aller plus loin</summary>
+
+- **Le scepticisme au XVIIe siècle.** Richard H. Popkin, *Histoire du scepticisme d'Érasme à Spinoza* (PUF, 1995), traduction d'une édition antérieure du livre de Popkin ; l'*Internet Encyclopedia of Philosophy* résume [le récit de Popkin et ses critiques](https://iep.utm.edu/renaissance-skepticism/) (en anglais).
+- **Chomsky et Foucault.** La [transcription du débat de 1971](https://chomsky.info/1971xxxx) figure sur le site de Chomsky (en anglais) ; une traduction française a paru sous le titre *Sur la nature humaine* (Aden, 2006).
+- **Le colloque de 2010.** Les vidéos des interventions, dont la conférence de Chomsky et la [discussion qui a suivi](https://www.college-de-france.fr/en/agenda/symposium/rationality-truth-and-democracy-bertrand-russell-george-orwell-noam-chomsky/discussion), sont sur le site du Collège de France ; les actes ont paru chez Agone en 2010.
+
+</details>
 
 ## VIII. Le prix pour le tiers-monde {#sec-third-world}
 
-*Annotation en cours.*
+::: {.sr-ts}
+[06:36 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=396s)
+:::
+
+> Aux États-Unis, c'est surtout cantonné aux départements de littérature comparée, alors s'ils se parlent entre eux dans une rhétorique incompréhensible, personne ne s'en soucie.
+>
+> <details class="sr-original"><summary>Texte original</summary>In the United States it's mostly confined to comparative literature departments, so if they talk to each other in incomprehensible rhetoric, nobody cares.</details>
+
+### Comment la théorie a voyagé {#sec-third-world-travel}
+
+C'est bien dans les départements de lettres que l'histoire américaine commence. Du 18 au 21 octobre 1966, un colloque de l'université Johns Hopkins à Baltimore, « The Languages of Criticism and the Sciences of Man », fait venir aux États-Unis Roland Barthes, Jacques Lacan, Jacques Derrida et d'autres ; la conférence de Derrida, « La structure, le signe et le jeu », passe souvent pour les débuts américains de ce qu'on appellera le post-structuralisme[^hopkins]. L'histoire qu'en a faite François Cusset, *French Theory* (2003), montre comment ces auteurs ont ensuite été lus sur les campus américains, surtout dans les départements de lettres, comme une marque unique qui n'existait guère en tant que telle en France[^cusset]. La remarque de Bourdieu sur les textes qui circulent sans leur contexte (section II) s'applique bien à cette histoire.
+
+### Des campus au Sud {#sec-third-world-south}
+
+::: {.sr-ts}
+[06:47 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=407s)
+:::
+
+> Là où cela a vraiment fait du mal, c'est dans le tiers-monde, parce que les intellectuels du tiers-monde sont indispensables aux mouvements populaires.
+>
+> <details class="sr-original"><summary>Texte original</summary>Where it's been really harmful is in the Third World, because Third-World intellectuals are badly needed in the popular movements.</details>
+
+Ces idées ont atteint les chercheurs originaires du tiers-monde ou qui y travaillaient surtout par les études postcoloniales. *L'Orientalisme* d'[Edward Said](https://www.britannica.com/biography/Edward-Said) (en anglais), paru en 1978 et inspiré en partie de l'analyse foucaldienne du discours, est devenu un texte fondateur. Le collectif Subaltern Studies, lancé par l'historien Ranajit Guha avec un premier volume en 1982, s'est donné pour tâche d'écrire l'histoire de l'Inde coloniale par en bas. Gayatri Chakravorty Spivak, qui avait traduit en anglais *De la grammatologie* de Derrida, posait en 1988 une question devenue célèbre : « [Les subalternes peuvent-elles parler ?](https://english.columbia.edu/content/gayatri-c-spivak) » (en anglais)[^postcolonial].
+
+Des critiques proches de celle de Chomsky sont venues de l'intérieur de ces domaines et de la gauche. [*In Theory*](https://www.versobooks.com/books/295-in-theory) (1992, en anglais) d'Aijaz Ahmad reprochait à la « théorie du discours colonial » des universités occidentales, Said compris, de négliger les classes et l'histoire. *Postcolonial Theory and the Specter of Capital* (2013) de Vivek Chibber soutenait que les historiens des Subaltern Studies avaient renoncé à des catégories universelles comme le capitalisme ou l'intérêt rationnel, une position assez proche des derniers mots de Chomsky, plus bas. Chibber a débattu avec Partha Chatterjee, membre fondateur du collectif, à New York en avril 2013 ; cet échange et d'autres critiques, dont celle de Spivak, ont été réunis dans un volume en 2016[^chibber].
+
+L'autre camp mérite d'être entendu. Said n'était guère « coupé des luttes populaires » : il a siégé au Conseil national palestinien de 1977 à 1991. Les Subaltern Studies voulaient précisément prendre au sérieux l'action politique des paysans, et Chatterjee a répondu que Chibber lisait mal les historiens qu'il critiquait. Les preuves de Chomsky, enfin, restent privées : il évoque des « expériences dans le tiers-monde » mais dit ne pas vouloir en parler. Sa thèse est peut-être juste, mais l'extrait ne permet pas de la vérifier.
+
+{{< include _figures/travels.md >}}
+
+### « Un outil qu'il vaut mieux avoir » {#sec-third-world-reason}
+
+::: {.sr-ts}
+[07:42 dans la vidéo](https://www.youtube.com/watch?v=772WncdxCSw&t=462s)
+:::
+
+> La rationalité est un outil qu'il vaut mieux avoir si l'on veut accomplir quoi que ce soit.
+>
+> <details class="sr-original"><summary>Texte original</summary>Rationality is a tool you'd better have if you want to achieve anything.</details>
+
+L'entretien se termine là où la section VII commençait, avec les Lumières. Pour Chomsky, renoncer aux fondements n'a rien de nouveau ; renoncer à la raison est une erreur politique, que paient d'abord ceux qui ont le moins de pouvoir. Que la théorie française ait produit les effets qu'il lui prête reste discutable. Que la discussion doive se trancher par des preuves est, en tout cas, le seul point sur lequel ses critiques et lui seraient sans doute d'accord.
+
+::: {.todo-figure}
+[Photo à ajouter]{.todo-label}
+Un portrait d'Edward Said. Chercher sur Wikimedia Commons une photographie sous licence libre et recopier sa mention de crédit.
+:::
+
+<details class="curious">
+<summary>Pour aller plus loin</summary>
+
+- **La théorie française en Amérique.** François Cusset, *French Theory. Foucault, Derrida, Deleuze & Cie et les mutations de la vie intellectuelle aux États-Unis* (La Découverte, 2003) ; voir aussi le [compte rendu de la traduction anglaise](https://ndpr.nd.edu/reviews/french-theory-how-foucault-derrida-deleuze-co-transformed-the-intellectual-life-of-the-united-states/) dans les *Notre Dame Philosophical Reviews* (en anglais).
+- **Le débat Chibber.** Le [compte rendu « Gridlock! »](https://www.radicalphilosophy.com/reviews/individual-reviews/gridlock) dans *Radical Philosophy* présente le volume de 2016 de façon équilibrée ; la [réponse de Chibber à Chatterjee](https://www.versobooks.com/blogs/news/1529-subaltern-studies-revisited-vivek-chibber-s-response-to-partha-chatterjee) est sur le blog de Verso (en anglais tous deux).
+
+</details>
 
 [^mutualite]: Chomsky est intervenu sur le thème « Contours of World Order: Continuities, Changes, and Challenges » au Théâtre de la Mutualité le 29 mai 2010, lors d'une soirée organisée par *Le Monde diplomatique*. Un [enregistrement avec les questions du public](https://znetwork.org/zaudio/noam-chomsky-talk-at-mutualite-with-q-and-a-by-y-brody/) est disponible sur ZNetwork. Un essai consacré à l'extrait le présente aussi comme un entretien de 2011, mais l'enregistrement d'origine n'a pas encore été retrouvé.
 
@@ -220,3 +517,71 @@ L'histoire la plus connue de ces années, *Un passé imparfait* de Tony Judt, es
 [^barthes]: Roland Barthes, *Carnets du voyage en Chine* (Christian Bourgois / IMEC, 2009). Sur le moment, Barthes ne publie qu'un bref article sur le voyage, « Alors, la Chine ? », dans *Le Monde* du 24 mai 1974.
 
 [^camus]: Francis Jeanson, « Albert Camus ou l'âme révoltée », *Les Temps modernes*, n^o^ 79 (mai 1952). La « Lettre au directeur des *Temps modernes* » de Camus, datée du 30 juin 1952, paraît avec les réponses de Sartre et de Jeanson dans le n^o^ 82 (août 1952).
+
+[^casanova]: Pascale Casanova, *La République mondiale des lettres* (Seuil, 1999). Casanova montre les deux faces de cette centralité : Paris consacrait des écrivains étrangers, mais souvent selon ses propres critères.
+
+[^translations]: Chiffres des enquêtes annuelles de *Livres Hebdo* et Electre, qui comptent les nouveautés et nouvelles éditions de tous genres : 14,3 % en 2009, 15,9 % en 2011, 17,5 % en [2013](https://www.livreshebdo.fr/article/les-traductions-en-2013-anglais-le-niveau-monte), 19,1 % en [2017](https://www.livreshebdo.fr/article/bilan-2017-un-niveau-record-pour-les-traductions) (année où les traductions représentaient 40,4 % de la littérature) et 18,1 % en [2019](https://www.livreshebdo.fr/article/les-traductions-en-mode-banzai).
+
+[^threepercent]: Le chiffre de « 3 % » a été popularisé par le programme de traduction de l'université de Rochester, dont le site s'appelle *Three Percent*. *Livres Hebdo* le [met en regard](https://www.livreshebdo.fr/article/cessions-de-droits-le-retour-du-reve-americain) des 34 % de romans publiés en France qui sont des traductions. Les bases diffèrent (titres littéraires d'un côté, romans de l'autre) : la comparaison donne un ordre de grandeur, non un rapport précis.
+
+[^humanities]: *Livres Hebdo* indiquait qu'en 2012 les traductions en sciences humaines avaient reculé de 3 %, à 1 652 titres, alors que l'ensemble des traductions progressait. Les études de Gisèle Sapiro sur le marché de la traduction décrivent le même déséquilibre : la littérature est le secteur où la part des traductions est la plus élevée.
+
+[^bourdieu]: Pierre Bourdieu, « Les conditions sociales de la circulation internationale des idées », conférence prononcée à l'université de Fribourg-en-Brisgau le 30 octobre 1989, publiée dans la *Romanistische Zeitschrift für Literaturgeschichte* (1990), puis dans les *Actes de la recherche en sciences sociales*, n° 145 (décembre 2002), p. 3-8.
+
+[^carnapfr]: Rudolf Carnap, *L'Ancienne et la nouvelle logique* (1933) et *La Science et la métaphysique devant l'analyse logique du langage* (1934), tous deux traduits par Ernest Vouillemin pour la collection « Actualités scientifiques et industrielles » d'Hermann, n° 76 et 172.
+
+[^congress]: Sur le congrès de 1935 et le rôle de Rougier, voir l'article « [Positivism in Action: The Case of Louis Rougier](https://philarchive.org/archive/DEWPIA-2) » (PhilArchive, en anglais). Les sources donnent des dates (15-23 ou 16-21 septembre 1935) et des effectifs légèrement différents. Les actes ont paru chez Hermann en 1936. Le troisième congrès pour l'unité de la science s'est tenu à Paris du 29 au 31 juillet 1937, juste avant le Congrès Descartes (31 juillet - 6 août).
+
+[^bourdeau]: Michel Bourdeau, « [La préparation du congrès de 1935 dans la correspondance d'Otto Neurath et de Louis Rougier](https://shs.hal.science/halshs-01864570) », *Philosophia Scientiae*.
+
+[^jacob]: Pierre Jacob, *L'Empirisme logique, ses antécédents, ses critiques* (Minuit, 1980), et Pierre Jacob (dir.), *De Vienne à Cambridge. L'héritage du positivisme logique de 1950 à nos jours* (Gallimard, 1980). La première phrase est citée dans le [compte rendu](https://muse.jhu.edu/article/227068/summary) d'Elizabeth Eames, *Journal of the History of Philosophy* 21 (1983, en anglais).
+
+[^soulez]: Antonia Soulez (dir.), *Manifeste du Cercle de Vienne et autres écrits* (Presses universitaires de France, 1985), avec des textes de Carnap, Hahn, Neurath et Schlick. L'article [« positivisme logique »](https://www.larousse.fr/encyclopedie/philosophie/positivisme_logique/192028) du *Dictionnaire de la philosophie* Larousse le cite comme édition de référence.
+
+[^boesiger]: Ernest Boesiger, « [Evolutionary Biology in France at the Time of the Evolutionary Synthesis](https://doi.org/10.4159/harvard.9780674865389.c39) », dans Ernst Mayr et William B. Provine (dir.), *The Evolutionary Synthesis: Perspectives on the Unification of Biology* (Harvard University Press, 1980), p. 309-321 (en anglais). Le passage décrit la situation en 1974 ; il est cité par A. J. Cain dans son compte rendu du volume dans *Nature* 290 (23 avril 1981). La traduction des citations est la nôtre.
+
+[^loison]: Laurent Loison et Emmanuel Herring, « [Lamarckian Research Programs in French Biology (1900–1970)](https://link.springer.com/chapter/10.1007/978-3-319-69123-7_11) », dans Richard G. Delisle (dir.), *The Darwinian Tradition in Context* (Springer, 2017, en anglais). Le même chapitre traite de l'opposition de Grassé à la synthèse et de ses échanges avec Dobzhansky, dont le compte rendu « Darwinian or "oriented" evolution? » a paru dans *Evolution* 29 (1975).
+
+[^burian]: Richard M. Burian, Jean Gayon et Doris Zallen, « [The Singular Fate of Genetics in the History of French Biology, 1900–1940](https://halshs.archives-ouvertes.fr/halshs-00775435v1/file/Gayon-singular-fate-genetics.pdf) », *Journal of the History of Biology* 21, n° 3 (1988), p. 357-402 (en anglais). Certains historiens, notamment Cédric Grimoult, *Histoire de l'évolutionnisme contemporain en France, 1945-1995* (Droz, 2000), soutiennent aussi que la synthèse était mieux connue dans la France d'après-guerre que ne le dit le récit habituel.
+
+[^monod]: Sur la guerre de Monod et son arrivée à l'Institut Pasteur, voir la [biographie](https://encyclopedia.com/people/medicine/microbiology-biographies/jacques-lucien-monod) du *Dictionary of Scientific Biography* (en anglais), qui indique aussi qu'il quitta le Parti communiste en 1945. Lwoff fut lui aussi résistant, dans le réseau Cohors-Asturies. La citation de Chomsky sur Luria provient de l'article de Wikipédia en anglais consacré à Luria ; nous n'avons pas retrouvé l'entretien d'origine.
+
+[^nobel]: Prix Nobel de physiologie ou médecine 1965, [présentation officielle](https://www.nobelprize.org/prizes/medicine/1965/summary/) (en anglais ; traduction de la citation par nos soins). Dans son discours Nobel, Jacob rappelait être arrivé au grenier de Lwoff en 1950.
+
+[^gulagdates]: Pour les dates de publication, voir les articles de Cécile Vaissié pour le cinquantenaire, dans [*Conflits*](https://www.revueconflits.com/larchipel-du-goulag-trois-tomes-qui-ont-ebranle-le-communisme/) et dans [*Slate*](https://www.slate.fr/story/258396/cinquante-ans-publication-archipel-du-goulag-reste-actualite-livre-alexandre-soljenitsyne-russie-poutine-urss-repression), qui donnent le chiffre de 600 000 exemplaires. Les sources ne s'accordent pas sur le mois exact de l'édition française (entre avril et juin 1974). Les deuxième et troisième tomes ont suivi en 1974-1976.
+
+[^newphil]: André Glucksmann, *La Cuisinière et le mangeur d'hommes. Essai sur l'État, le marxisme, les camps de concentration* (Seuil, 1975) ; Bernard-Henri Lévy, *La Barbarie à visage humain* (Grasset, 1977). Sur le lancement de l'étiquette dans *Les Nouvelles littéraires* en juin 1976 et sur la réponse de Deleuze, publiée en supplément de la revue *Minuit* en 1977, voir les articles de l'*Encyclopædia Universalis* consacrés à Lévy et à [Glucksmann](https://www.universalis.fr/encyclopedie/andre-glucksmann/). Le magazine *Time* consacrait au phénomène un [article](https://time.com/archive/6849180/france-the-new-philosophers) dès 1977 (en anglais).
+
+[^ten]: Chomsky le raconte dans sa conférence « [Radical Intellectuals](https://www.alternativeradio.org/products/chon220/) » (Alternative Radio, en anglais). Voir aussi Robert F. Barsky, *Noam Chomsky. Une voix discordante* (Odile Jacob, 1998), traduction de *Noam Chomsky: A Life of Dissent* (MIT Press, 1997).
+
+[^kravchenko]: Le livre de Victor Kravchenko, *J'ai choisi la liberté* (1946 pour l'original américain), décrivait le système soviétique de l'intérieur. Le procès s'ouvre le 24 janvier 1949 devant la 17e chambre correctionnelle de Paris ; un récit bref est sur [Hérodote](https://www.herodote.net/24_janvier_4_avril_1949-evenement-19490124.php). Tony Judt évoque le procès et les intellectuels qui témoignèrent pour *Les Lettres françaises* dans *Un passé imparfait* (1992).
+
+[^christofferson]: Michael Scott Christofferson, *French Intellectuals Against the Left: The Antitotalitarian Moment of the 1970s* (Berghahn, 2004) ; traduction française, *Les Intellectuels contre la gauche* (Agone, 2009).
+
+[^faurisson]: Chomsky, « [Some Elementary Comments on the Rights of Freedom of Expression](https://chomsky.info/19801011/) », 11 octobre 1980 (en anglais). Un compte rendu des réactions de l'époque se trouve dans la [*Partisan Review*](https://www.bu.edu/partisanreview/books/PR1981V48N4/HTML/files/assets/basic-html/page118.html) 48, n° 4 (1981, en anglais). La réponse de Vidal-Naquet, « Un Eichmann de papier », a paru dans *Esprit* en septembre 1980 et a été reprise dans *Les Assassins de la mémoire* (1987). Une vue d'ensemble, avec des citations des deux camps, figure dans l'article de Wikipédia sur l'[affaire Faurisson](https://en.wikipedia.org/wiki/Faurisson_affair) (en anglais).
+
+[^sartre]: Simone de Beauvoir donne le chiffre et les mots de Lanzmann dans *La Cérémonie des adieux* (Gallimard, 1981) ; le passage est cité dans l'[article de Claudio Tognonato sur Sartre](https://erudit.org/en/journals/sp/2010-sp04852/1064054ar.pdf), *Sens public* (2010). D'autres estimations commencent à 30 000.
+
+[^debray]: Régis Debray, *Le Pouvoir intellectuel en France* (Ramsay, 1979). Le [*Journal de l'année* Larousse 1979](https://www.larousse.fr/archives/journaux_annee/1979/220/idees) résume les trois cycles et l'accueil partagé du livre.
+
+[^apostrophes]: Dates et nombre d'émissions d'après l'article de l'*Encyclopædia Universalis* consacré à [Bernard Pivot](https://www.universalis.fr/encyclopedie/bernard-pivot-1935-2024/). Sur 1977 comme naissance de l'« intellectuel médiatique », voir l'article sur Glucksmann et Lévy dans [*Slate*](https://www.slate.fr/story/109843/glucksmann-bhl-nouveaux-philosophes-faux-jumeaux).
+
+[^tv]: Pierre Bourdieu, *Sur la télévision*, suivi de *L'Emprise du journalisme* (Liber-Raisons d'agir, 1996). Les deux leçons ont été diffusées par Paris Première en mai 1996, comme l'indique le [rapport annuel](https://www.college-de-france.fr/sites/default/files/documents/pierre-bourdieu/UPL7637636263808296026_AN_96_bourdieu.pdf) de Bourdieu au Collège de France. Voir aussi le compte rendu de Sylvano Santini dans [*Spirale*](https://www.erudit.org/fr/revues/spirale/2003-n191-spirale1058416/18229ac.pdf) (2003).
+
+[^mulhern]: Francis Mulhern, « Teachers, Writers, Celebrities: Intelligentsias and their Histories », *New Left Review* I/126 (mars-avril 1981, en anglais). La traduction des citations est la nôtre.
+
+[^popkin]: Richard H. Popkin, *The History of Scepticism from Savonarola to Bayle* (Oxford University Press, 2003 ; première édition 1960), chapitre 7, « Constructive or Mitigated Scepticism ». *La Vérité des sciences contre les sceptiques ou pyrrhoniens* de Mersenne a paru en 1625. Certains spécialistes lisent aujourd'hui la position de Gassendi comme constructive dès l'origine, et non comme un repli tardif depuis le pyrrhonisme.
+
+[^lyotard]: Jean-François Lyotard, *La Condition postmoderne. Rapport sur le savoir* (Minuit, 1979). Voir l'article [« postmodernisme »](https://www.larousse.fr/encyclopedie/philosophie/postmodernisme/192031) du *Dictionnaire de la philosophie* Larousse.
+
+[^sokal]: Alan Sokal, « Transgressing the Boundaries: Toward a Transformative Hermeneutics of Quantum Gravity », *Social Text* 46/47 (printemps-été 1996), p. 217-252 ; Alan Sokal et Jean Bricmont, *Impostures intellectuelles* (Odile Jacob, 1997). Leurs critiques ont répondu qu'ils lisaient comme des affirmations littérales ce qui relevait de la métaphore.
+
+[^colloquium]: Collège de France, 28 mai 2010. La conférence de Chomsky s'intitulait « Power-hunger tempered by self-deception ». Les [actes](https://www.college-de-france.fr/media/jacques-bouveresse/UPL37808_livrechomsky.pdf) ont paru sous le titre *Rationalité, vérité et démocratie* dans la revue *Agone*, n° 44 (2010). L'attaque la plus connue de Bouveresse contre les usages abusifs de la science est *Prodiges et vertiges de l'analogie* (Raisons d'agir, 1999).
+
+[^hopkins]: Pour les dates et le programme, voir l'introduction de « [40 Years of Structure, Sign and Play](https://muse.jhu.edu/article/263159/summary) », *Theory & Event* 12, n° 1 (2009, en anglais). Les actes ont paru sous le titre *The Structuralist Controversy*, sous la direction de Richard Macksey et Eugenio Donato (Johns Hopkins, 1970).
+
+[^cusset]: François Cusset, *French Theory. Foucault, Derrida, Deleuze & Cie et les mutations de la vie intellectuelle aux États-Unis* (La Découverte, 2003).
+
+[^postcolonial]: Edward W. Said, *Orientalism* (Pantheon, 1978) ; trad. française *L'Orientalisme. L'Orient créé par l'Occident* (Seuil, 1980). Ranajit Guha (dir.), *Subaltern Studies I: Writings on South Asian History and Society* (Oxford University Press, Delhi, 1982). Gayatri Chakravorty Spivak, « Can the Subaltern Speak? », dans Cary Nelson et Lawrence Grossberg (dir.), *Marxism and the Interpretation of Culture* (University of Illinois Press, 1988), p. 271-313 ; trad. française *Les subalternes peuvent-elles parler ?* (Éditions Amsterdam, 2009).
+
+[^chibber]: Aijaz Ahmad, *In Theory: Classes, Nations, Literatures* (Verso, 1992) ; Vivek Chibber, *Postcolonial Theory and the Specter of Capital* (Verso, 2013) ; Rosie Warren (dir.), *The Debate on Postcolonial Theory and the Specter of Capital* (Verso, 2016), avec des contributions de Partha Chatterjee, Gayatri Spivak, Bruce Robbins et d'autres. Sur l'appartenance de Said au Conseil national palestinien (1977-1991), voir l'article « [Said, Edward (1935–2003)](https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/said-edward-1935-2003) » sur Encyclopedia.com (en anglais).

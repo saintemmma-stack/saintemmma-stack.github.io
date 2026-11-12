@@ -170,6 +170,14 @@ What the picture should show, and a suggested source.
   `<figure class="sr-drawing">`. Use the classes `ink`, `graphite`, `pencil`
   (fills) and `stroke-ink`, `stroke-pencil` (strokes) so they follow light and
   dark mode. Wide drawings go inside `<div class="sr-scroll">`.
+- Drawings made by a script in `tools/` can be written to a `_figures/` folder
+  next to the page (one file per drawing and language) and pulled in with
+  `{{< include _figures/name.md >}}`. The underscore keeps Quarto from
+  rendering the folder as pages. Rerun the script after changing its data;
+  `tools/drawings_chomsky.py` is an example.
+- Charts follow the site's chart colour (`chart-bar`, defined for light and
+  dark mode), start at zero, carry a source in the caption, and give each mark
+  a `<title>` so its value shows on hover.
 
 ## Design
 

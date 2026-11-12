@@ -15,6 +15,6 @@ Des conférences et des entretiens relus une seconde fois, lentement : transcrit
 <li>
 <div class="sr-work-title"><a href="works/chomsky-french-intellectuals/">L'étrange bulle des intellectuels français</a></div>
 <p>Noam Chomsky sur le stalinisme, le maoïsme, les modes parisiennes et l'idée qu'il n'y aurait pas de vérité, dans un extrait d'entretien de huit minutes enregistré vers 2011.</p>
-<p class="sr-meta">Édition annotée, en cours : section I sur VIII</p>
+<p class="sr-meta">Édition annotée : huit sections, avec notes et dessins</p>
 </li>
 </ul>

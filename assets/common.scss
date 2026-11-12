@@ -199,6 +199,9 @@ figure.sr-drawing {
   .graphite { fill: var(--sr-graphite); }
   .pencil { fill: var(--sr-pencil); }
   .stroke-rule { stroke: var(--sr-rule); }
+  .chart-bar { fill: var(--sr-chart); }
+  .paper { fill: var(--sr-paper); }
+  .rule { fill: var(--sr-rule); }
   .stroke-ink { stroke: var(--sr-graphite); }
   .stroke-pencil { stroke: var(--sr-pencil); }
   text { font-family: $ui-font; }
