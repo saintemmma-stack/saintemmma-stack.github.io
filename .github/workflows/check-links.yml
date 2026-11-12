@@ -26,7 +26,7 @@ jobs:
           # Some encyclopedias answer 403/429 to robots; those are not counted as broken.
           args: >-
             --no-progress --max-retries 2 --timeout 30
-            --accept 200,206,403,429
+            --accept 200,202,206,403,429
             --exclude 'youtube\.com' --exclude 'localhost'
             --root-dir "${{ github.workspace }}/_site"
             '_site/**/*.html'
